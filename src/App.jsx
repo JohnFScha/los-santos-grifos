@@ -10,7 +10,7 @@ import {Routes, Route} from 'react-router-dom'
 function App() {
 
   return (
-    <main>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home/>} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/contacto" element={<Contact/>} />
       </Routes>
       <Footer />
-    </main>
+    </>
   );
 }
 
