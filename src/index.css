@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
+  scroll-behavior: smooth;
 
   --naranja-1: #F1B441;
   --naranja-2: #F3A950;

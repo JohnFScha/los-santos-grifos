@@ -1,0 +1,41 @@
+div.contenedor-tarjeta-principal {
+  margin-top: 50px;
+}
+
+.container-tarjeta {
+  position: relative;
+  height: 160px;
+  background: var(--Naranja-2, #F3A950);
+}
+
+.tarjeta-sobresalida {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  border-radius: 6px;
+  margin: 10px;
+  height: 25vh;
+  background-color: var(--Gris-claro, #F2F2F2);
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarjeta-contenido-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: small;
+
+  > svg {
+    font-size: 1.2rem;
+  }
+}

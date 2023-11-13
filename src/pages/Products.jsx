@@ -1,6 +1,6 @@
 import React from "react";
 import ImageWithText from "../components/Products/ImageWithText";
-import Boton from "../components/Buttons/Button";
+import Button from "../components/Buttons/Button";
 import ImageWithContainer from "../components/Products/ImageWithContainer";
 
 const Products = () => {
@@ -27,7 +27,7 @@ const Products = () => {
             contenedorImageClassName="contenedor2"
             textImgClassName="text-contenedor-producto2"
           />
-          <Boton />
+          <Button>Descargar Catalogo</Button>
           <ImageWithContainer
             imageUrlTarjeta="/img/mujer-trabajando.png"
             title="Lorem ipsum dolor sit."
