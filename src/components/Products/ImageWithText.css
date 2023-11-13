@@ -1,0 +1,100 @@
+.contenedor{
+    width: 100% ;
+    height: 160px;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* ************* CONTENEDOR DE PRODUCTO 1 *************  */
+
+.imagen-contenedor1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.5) scaleX(-1);
+    margin-top: -2rem;
+}
+
+.text-contenedor-producto1 {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    background: linear-gradient(270deg, #FEFEFE 34%, rgba(254, 254, 254, 0.80) 71%, rgba(254, 254, 254, 0) 100%);
+}
+
+.contenedor-img1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.text-contenedor-producto1 h3{
+    color: #3E3E40;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.text-contenedor-producto1 p{
+    text-align: right;
+    color: #3E3E40;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+/* ************* CONTENEDOR DE PRODUCTO 2 *************  */
+
+.imagen-contenedor2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+.text-contenedor-producto2 {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #FEFEFE 34%, rgba(254, 254, 254, 0.80) 71%, rgba(254, 254, 254, 0) 100%);
+}
+
+.contenedor-img2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.text-contenedor-producto2 h3{
+    text-align: left;
+    color: #3E3E40;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.text-contenedor-producto2 p{
+    text-align: left;
+    color: #3E3E40;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
