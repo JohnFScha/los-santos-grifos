@@ -5,7 +5,7 @@ import ImageWithContainer from "../components/Products/ImageWithContainer";
 
 const Products = () => {
   return (
-    <div>
+    <main>
       <section id="accesorios">
         <div className="products">
           <h2>Nuestros productos</h2>
@@ -36,7 +36,7 @@ const Products = () => {
           />
         </div>
       </section>
-    </div>
+    </main>
   );
 };
 

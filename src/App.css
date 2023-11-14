@@ -16,13 +16,13 @@ header {
 /*======================Sección principal de la pagina====================*/
 
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;
 
   /*======================Sección productos====================*/
 
-  section#productos {
+  >section#productos {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     justify-content: space-between;
@@ -68,7 +68,7 @@ main {
 
   /*======================Sección presentación====================*/
 
-  section#presentacion {
+  >section#presentacion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +109,7 @@ main {
 
   /*======================Sección Fotos====================*/
 
-  section#galeria {
+  >section#galeria {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -142,77 +142,79 @@ main {
       border-radius: 6px;
     }
   }
-}
 
-/*======================Sección Marcas====================*/
+  /*======================Sección Marcas====================*/
 
-section#marcas {
-  >h2 {
-    text-align: center;
-    font-size: 1rem;
+  >section#marcas {
+
+    >h2 {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    >article {
+      width: 100%;
+      overflow-x: scroll;
+      scroll-snap-type: none;
+
+      >div {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1rem;
+        width: 80%;
+
+        >img {
+          max-width: 50%;
+        }
+      }
+    }
   }
 
-  >article {
-    width: 100%;
-    overflow-x: scroll;
-    scroll-snap-type: none;
 
-    >div {
+  /*======================Sección Contacto====================*/
+
+  >section#explicacion {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 0.7rem;
+    margin: 1rem 0;
+
+    >h3 {
+      font-weight: 700;
+      font-size: large;
+    }
+
+    >p {
+      font-size: small;
+    }
+
+    >div#contact-data {
       display: flex;
       align-items: center;
-      gap: 1.5rem;
-      padding: 1rem;
-      width: 80%;
+      justify-content: center;
 
-      >img {
-        max-width: 50%;
-      }
-    }
-  }
-}
-
-/*======================Sección Contacto====================*/
-
-section#explicacion {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  text-align: center;
-  padding: 0.7rem;
-  margin: 1rem 0;
-
-  >h3 {
-    font-weight: 700;
-    font-size: large;
-  }
-
-  >p {
-    font-size: small;
-  }
-
-  >div#contact-data {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    >div.boton {
-      margin: 0;
-
-      >button {
+      >div.boton {
         margin: 0;
-        font-weight: 500;
+
+        >button {
+          margin: 0;
+          font-weight: 500;
+        }
       }
-    }
 
-    >a {
-      background-color: #25D366;
-      font-size: 2.5rem;
-      color: white;
-      border-radius: 50%;
-      margin: 10px;
+      >a {
+        background-color: #25D366;
+        font-size: 2.5rem;
+        color: white;
+        border-radius: 50%;
+        margin: 10px;
 
-      >svg {
-        text-shadow: 5px 5px 10px black;
+        >svg {
+          text-shadow: 5px 5px 10px black;
+        }
       }
     }
   }
