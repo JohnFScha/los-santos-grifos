@@ -171,7 +171,6 @@ main {
     }
   }
 
-
   /*======================Sección Contacto====================*/
 
   >section#explicacion {
@@ -218,7 +217,26 @@ main {
       }
     }
   }
+
+  /*======================Sección FAQ====================*/
+
+  >section#questions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  >article#CTA {
+    background-color: var(--gris-claro);
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 1rem;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+  }
 }
+
 
 /*======================Footer====================*/
 
@@ -257,4 +275,8 @@ h2 {
   word-wrap: break-word;
   text-align: center;
   margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
 }
