@@ -2,22 +2,32 @@
     color: var(--Gris-oscuro, #3E3E40);
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
-/* Title */
+
 font-family: Montserrat;
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
-line-height: 24px; /* 109.091% */
+line-height: 24px; 
 }
 
 .quienes-somos p{
     color: var(--Gris-oscuro, #3E3E40);
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
-/* Body */
+
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 171.429% */
+line-height: 24px;
+}
+
+
+.contenedor-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imagenMujer{
+    justify-content: flex-start;
 }

@@ -30,6 +30,7 @@ const Products = () => {
           <Boton />
           <ImageWithContainer
             imageUrlTarjeta="/img/mujer-trabajando.png"
+            customClass="imagenMujer"
             title="Lorem ipsum dolor sit."
             text="Lorem ipsum dolor sit amet consectetur. Feugiat"
             showButton={true}
