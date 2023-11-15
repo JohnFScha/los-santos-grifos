@@ -9,6 +9,7 @@ a#whatsapp {
   border-radius: 50%;
   padding: 0.6rem;
   margin: 10px;
+  z-index: 1000;
   
   > svg {
     text-shadow: 5px 5px 10px black;

@@ -1,7 +1,8 @@
 import React from "react";
 import "../css/about.css";
+//imports components
 import ImageWithContainer from "../components/Products/ImageWithContainer";
-("../components/Products/ImageWithContainer.jsx");
+import CardObjetivo from "../components/CardsObjetivos/CardObjetivo.jsx";
 
 const About = () => {
   return (
@@ -18,7 +19,14 @@ const About = () => {
         </p>
       </div>
       <div>
-        <ImageWithContainer />
+        <ImageWithContainer imageUrlTarjeta="/img/Vector.svg" />
+      </div>
+      <div>
+        <CardObjetivo
+          urlIconCard="/img/iconCard2.svg"
+          titleCard="prueba"
+          textCard="pruebatexto"
+        />
       </div>
     </div>
   );
