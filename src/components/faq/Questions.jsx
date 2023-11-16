@@ -75,7 +75,7 @@ const Questions = () => {
           aliquip ex ea commodo consequat.
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderBottom="2px" borderTop="0">
+      <AccordionItem borderBottom="2px !important" borderTop="0">
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
