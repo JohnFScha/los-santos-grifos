@@ -1,6 +1,7 @@
 import React from "react";
 import ImageWithContainer from "../components/Products/ImageWithContainer";
 import Button from "../components/Buttons/Button";
+import Carousel from "../components/Carousel/Carousel.jsx";
 import Entrega from "../assets/Atencion-personalizada-1.png";
 import Atencion from "../assets/entrega-inmediata-1.png";
 import Stock from "../assets/Stock-permanente-1.png";
@@ -84,6 +85,13 @@ const Home = () => {
             <img src={rory} alt="rory" />
             <img src={italomix} alt="italomix" />
             <img src={treemme} alt="treemme" />
+          </div>
+        </article>
+      </section>
+      <section id="testimonios">
+        <article>
+          <div>
+            <Carousel />
           </div>
         </article>
       </section>
