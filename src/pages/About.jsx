@@ -23,9 +23,23 @@ const About = () => {
       </div>
       <div>
         <CardObjetivo
+          urlIconCard="/img/iconCard1.svg"
+          titleCard="Mision"
+          textCard="Lorem ipsum dolor sit amet consectetur. Feugiat dignissim eu iaculis mauris maecenas felis. Lorem ipsum dolor iaculis mauris maecenas felis."
+        />
+        <CardObjetivo
           urlIconCard="/img/iconCard2.svg"
-          titleCard="prueba"
-          textCard="pruebatexto"
+          titleCard="Vision"
+          textCard="Lorem ipsum dolor sit amet consectetur. Feugiat dignissim eu iaculis mauris maecenas felis. Lorem ipsum dolor iaculis mauris maecenas felis."
+        />
+        <CardObjetivo
+          urlIconCard="/img/iconCard3.svg"
+          titleCard="Vision"
+          listItems={[
+            "Lorem ipsum dolor sit amet.",
+            "Lorem ipsum dolor sit amet.",
+            "Lorem ipsum dolor sit amet.",
+          ]}
         />
       </div>
     </div>
