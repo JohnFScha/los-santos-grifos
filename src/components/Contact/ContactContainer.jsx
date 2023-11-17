@@ -12,7 +12,7 @@ const ContactContainer = () => {
       <div className="contenedor-tarjeta-principal">
         <div className="container-tarjeta">
           <div className="tarjeta-sobresalida">
-            <div className="tarjeta-contenido-texto">
+            <div className="tarjeta-contenido-texto-contacto">
               <div className="contenido"><BsFillTelephoneFill/> 12345</div>
               <div className="contenido"><IoMdMail/> lossantosgrifos@gmail.com</div>
               <div className="contenido"><IoLocationSharp/> San Rafael, Mendoza</div>

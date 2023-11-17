@@ -5,7 +5,7 @@ import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 const FAQ = () => {
   return (
     <main>
-      <section>
+      <section id='heading'>
         <h2>Preguntas frecuentes</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium

@@ -34,10 +34,9 @@ const Home = () => {
       <section id="presentacion">
         <h2>Lorem ipsum dolor sit amet</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minus
-          dicta cum reiciendis ea aliquam quam sit, saepe adipisci voluptatum
-          recusandae tempora iusto exercitationem. Exercitationem laudantium
-          pariatur unde suscipit eaque!
+          Lorem ipsum dolor sit amet consectetur. Feugiat dignissim eu iaculis
+          mauris maecenas felis. Id eget est tellus bibendum sit dolor vitae
+          mauris.
         </p>
         ´
         <div role="group" id="info">
@@ -66,7 +65,7 @@ const Home = () => {
 
       {/* =============== Seccion Novedades =============== */}
 
-      <section role="info">
+      <section role="info" id="card">
         <ImageWithContainer
           imageUrlTarjeta="/img/mujer-trabajando.png"
           title="Lorem ipsum dolor sit."

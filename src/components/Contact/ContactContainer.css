@@ -23,10 +23,11 @@ div.contenedor-tarjeta-principal {
   align-items: center;
 }
 
-.tarjeta-contenido-texto {
+div.tarjeta-contenido-texto-contacto {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding: 1.25rem
 }
 
 .contenido {
