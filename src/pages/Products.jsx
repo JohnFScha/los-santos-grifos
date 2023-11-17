@@ -10,15 +10,6 @@ const Products = () => {
         <div className="products">
           <h2>Nuestros productos</h2>
           <ImageWithText
-            imageUrl="/img/imgProducts.png"
-            title="Griferías y accesorios"
-            description="Lorem ipsum dolor sit amet consectetur."
-            imageClassName="contenedor-img1"
-            imgProductClassName="imagen-contenedor1"
-            contenedorImageClassName="contenedor1"
-            textImgClassName="text-contenedor-producto1"
-          />
-          <ImageWithText
             imageUrl="/img/cocina-minimalista2.png"
             title="Griferias para cocinas"
             description="Lorem ipsum dolor sit amet consectetur."
@@ -26,6 +17,15 @@ const Products = () => {
             imgProductClassName="imagen-contenedor2"
             contenedorImageClassName="contenedor2"
             textImgClassName="text-contenedor-producto2"
+          />
+          <ImageWithText
+            imageUrl="/img/imgProducts.png"
+            title="Griferías y accesorios"
+            description="Lorem ipsum dolor sit amet consectetur."
+            imageClassName="contenedor-img1"
+            imgProductClassName="imagen-contenedor1"
+            contenedorImageClassName="contenedor1"
+            textImgClassName="text-contenedor-producto1"
           />
           <ImageWithText
             imageUrl="/img/cocina-minimalista1.png"
