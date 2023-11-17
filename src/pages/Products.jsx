@@ -19,6 +19,15 @@ const Products = () => {
             textImgClassName="text-contenedor-producto1"
           />
           <ImageWithText
+            imageUrl="/img/cocina-minimalista2.png"
+            title="Griferias para cocinas"
+            description="Lorem ipsum dolor sit amet consectetur."
+            imageClassName="contenedor-img2"
+            imgProductClassName="imagen-contenedor2"
+            contenedorImageClassName="contenedor2"
+            textImgClassName="text-contenedor-producto2"
+          />
+          <ImageWithText
             imageUrl="/img/cocina-minimalista1.png"
             title="Bachas artesanales"
             description="Lorem ipsum dolor sit amet consectetur."
