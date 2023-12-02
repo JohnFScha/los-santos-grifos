@@ -39,9 +39,25 @@ main {
       >h2 {
         font-size: 1.2rem;
         text-align: center;
-        padding: 1rem 4rem;
+        padding: 0 4rem;
         font-weight: 700;
-        color: var(--naranja-1);
+        color: var(--gris-oscuro);
+      }
+
+      >hr#div-1 {
+        width: 60%;
+        background-color: var(--naranja-1);
+        height: 1px;
+        border: none;
+        margin-left: auto;
+      }
+
+      >hr#div-2 {
+        width: 60%;
+        margin-right: auto;
+        background-color: var(--naranja-1);
+        height: 1px;
+        border: none;
       }
     }
 
@@ -77,7 +93,9 @@ main {
     padding: 0.5rem;
 
     >h2 {
-      font-weight: 700;
+      font-weight: 600;
+      width: 85%;
+      margin: auto;
     }
 
     >div {
@@ -202,7 +220,7 @@ main {
     }
 
     >p {
-      font-size: small;
+      font-size: medium;
     }
 
     >div#contact-data {

@@ -1,36 +1,38 @@
-.iconCard{
+.iconCard {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 57px; 
-    height: 57px; 
+    width: 57px;
+    height: 57px;
     background-color: #F3A950;
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.img-tarjeta-circle{
+.img-tarjeta-circle {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
 }
 
-.Card{
+.Card {
     margin-top: 10px;
     margin-bottom: 15px;
     width: 328px;
-    height: 192px;
     background-color: #F2F2F2;
     border-radius: 5%;
     display: flex;
+    padding: 1rem;
 }
-.centerCard{
-display: flex;
-justify-content: center;
-align-items: center;
+
+.centerCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.textCard{
+
+.textCard {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -38,29 +40,32 @@ align-items: center;
     margin-left: 10px;
     margin-top: 10px;
 }
-.textCard p{
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-width: 223px;
-}
-.textCard ul{
-        margin-top: 20px;
-        margin-left: 20px;
-        font-family: Montserrat;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        width: 223px;
-       
-}
-.textCard h4{
+
+.textCard p {
     font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 223px;
+}
+
+.textCard ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 223px;
+
+}
+
+.textCard h4 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
 }
