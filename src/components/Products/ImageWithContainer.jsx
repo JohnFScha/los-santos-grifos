@@ -15,11 +15,18 @@ const ImageWithContainer = ({
 }) => {
   return (
     <div>
-      <div className="contenedor-tarjeta-principal">
-        <div className="container-tarjeta">
-          <div className="tarjeta-sobresalida">
-            <div className={`contenedor-image ${customClass}`}>
-              <img className="img-tarjeta" src={imageUrlTarjeta} alt="" />
+      <div>
+        <div className="contenedor-tarjeta-principal">
+          <div className="container-tarjeta">
+            <div className="tarjeta-sobresalida">
+              <div className={`contenedor-image ${customClass}`}>
+                <img className="img-tarjeta" src={imageUrlTarjeta} alt="" />
+              </div>
+              <div className="tarjeta-contenido-texto">
+                <h3>{title}</h3>
+                <p>{text}</p>
+                {showButton && <Boton />}
+              </div>
             </div>
           </div>
         </div>
@@ -29,3 +36,13 @@ const ImageWithContainer = ({
 };
 
 export default ImageWithContainer;
+
+//   <div className="contenedor-tarjeta-principal">
+//     <div className="container-tarjeta">
+//       <div className="tarjeta-sobresalida">
+//         <div className={`contenedor-image ${customClass}`}>
+//           <img className="img-tarjeta" src={imageUrlTarjeta} alt="" />
+//         </div>
+//       </div>
+//     </div>
+//   </div>
