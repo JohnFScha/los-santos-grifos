@@ -8,12 +8,14 @@ import Stock from "../assets/Stock-permanente-1.png";
 import Grifo1 from "../assets/Rectangle-8.png";
 import Grifo2 from "../assets/Rectangle-11.png";
 import Grifo3 from "../assets/Rectangle-10.png";
+
 import italomix from "../assets/marcas/italomix.png";
 import Fango from "../assets/marcas/fango.png";
 import rory from "../assets/marcas/rory.png";
 import treemme from "../assets/marcas/treemme.png";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 import ImageWithText from "../components/Products/ImageWithText.jsx";
+
 
 const Home = () => {
   return (
