@@ -4,12 +4,13 @@ div.contenedor-tarjeta-principal {
 
 .container-tarjeta {
   position: relative;
+  height: 30vh;
   background: var(--Naranja-2, #F3A950);
 }
 
 .tarjeta-sobresalida {
   position: absolute;
-  top: -60px;
+  top: -40px;
   left: 0;
   right: 0;
   height: 30vh;
