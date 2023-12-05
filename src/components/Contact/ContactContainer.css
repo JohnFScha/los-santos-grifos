@@ -8,7 +8,7 @@ div.contenedor-tarjeta-principal {
   background: var(--Naranja-2, #F3A950);
 }
 
-.tarjeta-sobresalida {
+/* .tarjeta-sobresalida {
   position: absolute;
   top: -40px;
   left: 0;
@@ -22,7 +22,7 @@ div.contenedor-tarjeta-principal {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 div.tarjeta-contenido-texto-contacto {
   display: flex;

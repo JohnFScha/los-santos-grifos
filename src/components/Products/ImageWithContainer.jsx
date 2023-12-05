@@ -21,7 +21,6 @@ const ImageWithContainer = ({
             <div className={`contenedor-image ${customClass}`}>
               <img className="img-tarjeta" src={imageUrlTarjeta} alt="" />
             </div>
-            
           </div>
         </div>
       </div>
