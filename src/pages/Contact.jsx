@@ -10,10 +10,9 @@ const Contact = () => {
       <h2>Contacto</h2>
       <ContactContainer />
       <section id="explicacion">
-        <h3>Lorem ipsum dolor sit amet</h3>
+        <h3>Comunicate con nosotros</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, est. Id
-          nesciunt fugit architecto non dolores.
+          ¡Te brindamos atención personalizada! Realizá tu <strong>consulta</strong>, <strong>pedido</strong> o <strong>solicitud de presupuesto.</strong>
         </p>
         <div id="contact-data">
           <Link to={"tel:+541123864313"}>

@@ -8,9 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 const Carousel = () => {
   const testimonios = [
     {
-      autor: "Lorem Ipsum 1",
+      autor: "Santiago Ulloa Ceramicasa",
       testimonio:
-        "“Lorem ipsum dolor sit amet consectetur. Feugiat dignissim eu iaculis mauris maecenas felis. Id eget est tellus bibendum sit dolor vitae mauris”",
+        "“Nos sentimos muy agradecidos por la buena atención, precios de sus productos y el seguimiento diario de nuestras necesidades”.",
     },
     {
       autor: "Lorem Ipsum 2",

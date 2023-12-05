@@ -3,7 +3,7 @@ import ImageWithContainer from "../components/Products/ImageWithContainer";
 import Button from "../components/Buttons/Button";
 import Carousel from "../components/Carousel/Carousel.jsx";
 import Entrega from "../assets/Atencion-personalizada-1.png";
-import Atencion from "../assets/entrega-inmediata-1.png";
+import Atencion from "../assets/star-badge.png";
 import Stock from "../assets/Stock-permanente-1.png";
 import Grifo1 from "../assets/Rectangle-8.png";
 import Grifo2 from "../assets/Rectangle-11.png";
@@ -13,6 +13,7 @@ import Fango from "../assets/marcas/fango.png";
 import rory from "../assets/marcas/rory.png";
 import treemme from "../assets/marcas/treemme.png";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
+import ImageWithText from "../components/Products/ImageWithText.jsx";
 
 const Home = () => {
   return (
@@ -21,7 +22,9 @@ const Home = () => {
 
       <section role="list" id="productos">
         <div id="heading">
+          <hr id="div-1" />
           <h2>Venta mayorista de giferías y bachas</h2>
+          <hr id="div-2" />
         </div>
         <div role="menu" id="actions">
           <h3>Conocé nuestros productos</h3>
@@ -32,12 +35,11 @@ const Home = () => {
       {/* =============== Seccion de Presentación =============== */}
 
       <section id="presentacion">
-        <h2>Lorem ipsum dolor sit amet</h2>
+        <h2>Calidad y excelencia para tus clientes</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minus
-          dicta cum reiciendis ea aliquam quam sit, saepe adipisci voluptatum
-          recusandae tempora iusto exercitationem. Exercitationem laudantium
-          pariatur unde suscipit eaque!
+          Contamos con una amplia variedad de griferías y accesorios para baños
+          y cocinas adaptadas a todas las necesidades. Realizamos envíos a todo
+          el país.
         </p>
         ´
         <div role="group" id="info">
@@ -46,11 +48,11 @@ const Home = () => {
             <figcaption>Stock permanente</figcaption>
           </figure>
           <figure>
-            <img src={Entrega} alt="entrega inmediata" />
-            <figcaption>Entrega inmediata</figcaption>
+            <img src={Atencion} alt="entrega inmediata" />
+            <figcaption>Calidad Garantizada</figcaption>
           </figure>
           <figure>
-            <img src={Atencion} alt="atencion personalizada" />
+            <img src={Entrega} alt="atencion personalizada" />
             <figcaption>Atención personalizada</figcaption>
           </figure>
         </div>
@@ -66,11 +68,16 @@ const Home = () => {
 
       {/* =============== Seccion Novedades =============== */}
 
-      <section role="info">
+      <section role="info" id="card">
         <ImageWithContainer
-          imageUrlTarjeta="/img/mujer-trabajando.png"
-          title="Lorem ipsum dolor sit."
-          text="Lorem ipsum dolor sit amet consectetur. Feugiat"
+          // imageUrlTarjeta="/img/mujer-trabajando.png"
+          // title="Conoce nuestras novedades"
+          // text="Mantenete al tanto de las nuevas propuestas"
+          // showButton={true}
+          imageUrlTarjeta="../img/mujer-trabajando.png"
+          customClass="imagenMujer"
+          title="Conocé nuestras novedades"
+          text="Mantenete al tanto de las nuevas propuestas"
           showButton={true}
         />
       </section>

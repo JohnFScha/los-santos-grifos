@@ -1,17 +1,19 @@
-.quienes-somos h2{
+.quienes-somos h2 {
     color: var(--Gris-oscuro, #3E3E40);
-text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
 
-font-family: Montserrat;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px; 
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 2rem;
 }
 
-.quienes-somos p{
+.quienes-somos p {
     color: var(--Gris-oscuro, #3E3E40);
+<<<<<<< HEAD
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Montserrat;
@@ -19,14 +21,25 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
+=======
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    padding: 1rem;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+>>>>>>> 1ea5b5d8213531acb0b466b4475e1a763c792e31
 }
 
 
-.contenedor-image{
+.contenedor-image {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.imagenMujer{
-    justify-content: flex-start;
+
+.foto-about {
+    width: 100%;
 }

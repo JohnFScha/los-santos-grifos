@@ -1,5 +1,5 @@
 a#whatsapp {
-  position: sticky;
+  position: fixed;
   max-width: fit-content;
   bottom: 10%;
   align-self: end;
@@ -10,8 +10,5 @@ a#whatsapp {
   padding: 0.6rem;
   margin: 10px;
   z-index: 1000;
-  
-  > svg {
-    text-shadow: 5px 5px 10px black;
-  }
+  box-shadow: 2px 2px 5px black;
 }
