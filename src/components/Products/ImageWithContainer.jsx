@@ -1,7 +1,7 @@
 import React from "react";
 
 // Importo componente boton
-import Button from "../Buttons/Button.jsx";
+import Boton from "../Buttons/Button.jsx";
 
 //Import css component
 import "./ImageWitchContainer.css";

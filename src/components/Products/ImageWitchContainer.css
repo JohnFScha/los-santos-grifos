@@ -11,6 +11,7 @@
 
 .tarjeta-sobresalida {
     position: relative;
+    display: flex;
     top: -40px;
     left: 0;
     right: 0;
@@ -25,7 +26,8 @@
 .img-tarjeta {
     border-radius: 6px;
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    /* object-fit: contain; */
 }
 
 .tarjeta-contenido-texto {
@@ -55,9 +57,9 @@
     line-height: 24px;
 }
 
-.contenedor-image {
+/* .contenedor-image {
     width: 95px !important;
-}
+} */
 
 .products {
     margin-bottom: 50px;
