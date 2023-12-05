@@ -1,63 +1,64 @@
-.contenedor-tarjeta-principal{
-    margin-top: 50px;
-}
-.container-tarjeta{
-    position: relative;
+.contenedor-tarjeta-principal {
+    margin-top: 50px !important;
     
+}
+
+.container-tarjeta {
+    position: relative;
     height: 160px;
     background: var(--Naranja-2, #F3A950);
 }
 
-.tarjeta-sobresalida{
-  position: absolute;
-  top: -40px;
-  left: 0;
-  right: 0;
-  border-radius: 6px;
-  margin: 10px;
-  height: 25vh;
-  background-color: var(--Gris-claro, #F2F2F2);
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-.img-tarjeta{
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+.tarjeta-sobresalida {
+    position: relative;
+    top: -40px;
+    left: 0;
+    right: 0;
+    border-radius: 6px;
+    margin: 10px;
+    height: 40vh;
+    background-color: var(--Gris-claro, #F2F2F2);
+    flex-shrink: 0;
+    
 }
 
-.tarjeta-contenido-texto{
+.img-tarjeta {
+    border-radius: 6px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tarjeta-contenido-texto {
     display: flex;
     flex-direction: column;
+    padding: 1.5rem 1.54rem;
 }
 
-.tarjeta-contenido-texto h3{
+.tarjeta-contenido-texto h3 {
     color: var(--Gris-oscuro, #3E3E40);
-text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 24px; 
-}
-.tarjeta-contenido-texto p{
-text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; 
-}
-.contenedor-image{
-    width: 50%;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
 }
 
-.products{
+.tarjeta-contenido-texto p {
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.contenedor-image {
+    width: 95px !important;
+}
+
+.products {
     margin-bottom: 50px;
 }

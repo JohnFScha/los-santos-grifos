@@ -11,6 +11,7 @@ const Footer = () => {
       <Link to={'/'}>Inicio</Link>
       <Link to={'/productos'}>Productos</Link>
       <Link to={'/nosotros'}>Quienes somos</Link>
+      <Link to={'/faq'}>Preguntas frecuentes</Link>
       <Link to={'/contacto'}>Contacto</Link>
       <Link to={'mailto:lossantosgrifos@gmail.com'}>Email</Link>
       <Link to={'tel:+541123864313'}>Telefono</Link>

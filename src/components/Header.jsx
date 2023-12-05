@@ -30,6 +30,9 @@ const Header = () => {
           <MenuItem>
             <Link to={"/contacto"}>Contacto</Link>
           </MenuItem>
+          <MenuItem>
+            <Link to={"/faq"}>Preguntas frecuentes</Link>
+          </MenuItem>
         </MenuList>
       </Menu>
     </header>

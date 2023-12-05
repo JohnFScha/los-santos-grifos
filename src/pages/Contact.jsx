@@ -1,7 +1,28 @@
 import React from "react";
+import ContactContainer from "../components/Contact/ContactContainer";
+import Button from "../components/Buttons/Button";
+import { Link } from "react-router-dom";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
-  return <div></div>;
+  return (
+    <main>
+      <h2>Contacto</h2>
+      <ContactContainer />
+      <section id="explicacion">
+        <h3>Comunicate con nosotros</h3>
+        <p>
+          ¡Te brindamos atención personalizada! Realizá tu <strong>consulta</strong>, <strong>pedido</strong> o <strong>solicitud de presupuesto.</strong>
+        </p>
+        <div id="contact-data">
+          <Link to={"tel:+541123864313"}>
+            <BsWhatsapp />
+          </Link>
+          <Button>Enviar Whatsapp</Button>
+        </div>
+      </section>
+    </main>
+  );
 };
 
 export default Contact;

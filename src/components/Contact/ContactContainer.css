@@ -1,0 +1,51 @@
+div.contenedor-tarjeta-principal {
+  margin-top: 15px;
+}
+
+.container-tarjeta {
+  position: relative;
+  background: var(--Naranja-2, #F3A950);
+}
+
+/* .tarjeta-sobresalida {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  right: 0;
+  height: 30vh;
+  border-radius: 6px;
+  width: 80vw;
+  margin: auto;
+  background-color: var(--Gris-claro, #F2F2F2);
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+div.tarjeta-contenido-texto-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem
+  
+}
+
+hr#divider {
+  background-color: var(--naranja-1);
+  height: 1px;
+  border: none;
+  width: 100%;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: qre;
+  font-size: small;
+
+  > svg {
+    font-size: 1.2rem;
+  }
+}
