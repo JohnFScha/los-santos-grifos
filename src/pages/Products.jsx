@@ -40,8 +40,8 @@ const Products = () => {
           <ImageWithContainer
             imageUrlTarjeta="/img/mujer-trabajando.png"
             customClass="imagenMujer"
-            title="Lorem ipsum dolor sit."
-            text="Lorem ipsum dolor sit amet consectetur. Feugiat"
+            title="Conocé nuestras novedades"
+            text="Mantenete al tanto de las nuevas propuestas"
             showButton={true}
           />
         </div>
