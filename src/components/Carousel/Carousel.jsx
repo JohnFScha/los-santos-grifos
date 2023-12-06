@@ -45,7 +45,7 @@ const Carousel = () => {
               boxShadow="md"
               backgroundColor="rgba(0, 0, 0, 0.1)"
               margin="0 20px 5px 3px"
-              overflow="hidden"
+              overflow="visible"
             >
               <Image
                 src="/img/Ellipse.png"
