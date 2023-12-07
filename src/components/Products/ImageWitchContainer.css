@@ -11,7 +11,8 @@
 
 .tarjeta-sobresalida {
     position: relative;
-    top: -40px;
+    display: flex;
+    top: -45px;
     left: 0;
     right: 0;
     border-radius: 6px;
@@ -25,13 +26,14 @@
 .img-tarjeta {
     border-radius: 6px;
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    /* object-fit: contain; */
 }
 
 .tarjeta-contenido-texto {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem 1.54rem;
+    /* padding: 1.5rem 1.54rem; */
 }
 
 .tarjeta-contenido-texto h3 {
@@ -55,9 +57,9 @@
     line-height: 24px;
 }
 
-.contenedor-image {
+/* .contenedor-image {
     width: 95px !important;
-}
+} */
 
 .products {
     margin-bottom: 50px;

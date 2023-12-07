@@ -11,6 +11,10 @@
     margin-top: 2rem;
 }
 
+.css-pr62k1{
+    overflow: visible !important;
+}
+
 .quienes-somos p {
     color: var(--Gris-oscuro, #3E3E40);
     text-align: center;
@@ -26,10 +30,11 @@
 
 .contenedor-image {
     width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
-img.img-tarjeta {
-    width: 100vw !important;
+.foto-about {
+    width: 100%;
 }

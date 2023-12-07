@@ -4,7 +4,7 @@ div.contenedor-tarjeta-principal {
 
 .container-tarjeta {
   position: relative;
-  height: 30vh;
+  /* height: 30vh; */
   background: var(--Naranja-2, #F3A950);
 }
 
