@@ -1,19 +1,19 @@
-div.contenedor-tarjeta-principal {
+div.contenedor-principal {
   margin-top: 15px;
 }
 
-.container-tarjeta {
+.contenedor-tarjeta {
   position: relative;
-  /* height: 30vh; */
+  height: 32vh;
   background: var(--Naranja-2, #F3A950);
 }
 
-.tarjeta-sobresalida {
+.tarjeta-sobresalida-2 {
   position: absolute;
   top: -40px;
   left: 0;
   right: 0;
-  height: 30vh;
+  height: 35vh !important;
   border-radius: 6px;
   width: 80vw;
   margin: auto;
@@ -28,7 +28,7 @@ div.tarjeta-contenido-texto-contacto {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 2rem
+  padding: 2rem 0;
   
 }
 
@@ -39,7 +39,7 @@ hr#divider {
   width: 100%;
 }
 
-.contenido {
+.contenido-2 {
   display: flex;
   align-items: center;
   gap: 1rem;

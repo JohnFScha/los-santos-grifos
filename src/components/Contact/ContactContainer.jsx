@@ -10,28 +10,28 @@ import { AiFillInstagram } from "react-icons/ai";
 const ContactContainer = () => {
   return (
     <section>
-      <div className="contenedor-tarjeta-principal">
-        <div className="container-tarjeta">
-          <div className="tarjeta-sobresalida" style={{ height: "50vh" }}>
+      <div className="contenedor-principal">
+        <div className="contenedor-tarjeta">
+          <div className="tarjeta-sobresalida-2" style={{ height: "50vh" }}>
             <div className="tarjeta-contenido-texto-contacto">
-              <div className="contenido">
+              <div className="contenido-2">
                 <BsFillTelephoneFill /> 12345
               </div>
-              <div className="contenido">
+              <div className="contenido-2">
                 <IoMdMail /> lossantosgrifos@gmail.com
               </div>
-              <div className="contenido">
+              <div className="contenido-2">
                 <IoLocationSharp /> San Rafael, Mendoza
               </div>
               <hr id="divider" />
-              <div className="contenido">¡Seguinos en nuestras redes!</div>
-              <div className="contenido">
+              <div className="contenido-2">¡Seguinos en nuestras redes!</div>
+              <div className="contenido-2">
                 <FaFacebookSquare />
                 <Link to={"https://instagram.com/lossantosgrifos"}>
                   @lossantosgrifos
                 </Link>
               </div>
-              <div className="contenido">
+              <div className="contenido-2">
                 <AiFillInstagram />
                 <Link to={"https://facebok.com/lossantosgrifos"}>
                   Los Santos Grifos
