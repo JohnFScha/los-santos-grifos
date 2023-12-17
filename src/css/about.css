@@ -17,15 +17,6 @@
 
 .quienes-somos p {
     color: var(--Gris-oscuro, #3E3E40);
-<<<<<<< HEAD
-text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-=======
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
     padding: 1rem;
@@ -34,7 +25,6 @@ line-height: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
->>>>>>> 1ea5b5d8213531acb0b466b4475e1a763c792e31
 }
 
 
@@ -47,5 +37,4 @@ line-height: 24px;
 
 .foto-about {
     width: 100%;
-    
 }
