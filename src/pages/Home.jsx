@@ -16,7 +16,6 @@ import treemme from "../assets/marcas/treemme.png";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 import ImageWithText from "../components/Products/ImageWithText.jsx";
 
-
 const Home = () => {
   return (
     <main id="Home">
@@ -25,12 +24,12 @@ const Home = () => {
       <section role="list" id="productos">
         <div id="heading">
           <hr id="div-1" />
-          <h2>Venta mayorista de giferías y bachas</h2>
+          <h2 id="h2-home">Venta mayorista de giferías y bachas</h2>
           <hr id="div-2" />
         </div>
         <div role="menu" id="actions">
-          <h3>Conocé nuestros productos</h3>
-          <Button>Descargar catálogo</Button>
+          <h3 id="h3-home">Conocé nuestros productos</h3>
+          <Button id="button-home">Descargar catálogo</Button>
         </div>
       </section>
 
@@ -72,10 +71,6 @@ const Home = () => {
 
       <section role="info" id="card">
         <ImageWithContainer
-          // imageUrlTarjeta="/img/mujer-trabajando.png"
-          // title="Conoce nuestras novedades"
-          // text="Mantenete al tanto de las nuevas propuestas"
-          // showButton={true}
           imageUrlTarjeta="../img/mujer-trabajando.png"
           customClass="imagenMujer"
           title="Conocé nuestras novedades"

@@ -326,3 +326,152 @@ p {
   display: none !important;
   content: none !important;
 }
+
+
+/* Header desktop */
+
+@media(min-width: 768px){
+ 
+  
+
+  /* Home */
+  main{
+    >section#productos {
+      /* display: grid;
+      grid-template-rows: repeat(2, 1fr); */
+      justify-content: space-between;
+      width: 100%;
+      height: 600px;
+      background: url('./assets/home1desktop.png');
+       background-repeat: no-repeat;
+     background-size: cover;
+      
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      >div#heading{
+        background-image: linear-gradient(to left,transparent,white);
+        >h2#h2-home{
+          max-width: 400px;
+        }
+      }
+      
+      >div#actions{
+        background-image: linear-gradient(to left,transparent,white);
+        align-items: flex-start;
+        max-width: 400px;
+        /* padding: 0 4rem; */
+        
+        .botonDescargar{
+          margin-left: 4rem;
+          max-width: 260px;
+        }
+        >h3#h3-home{
+         font-family: 1rem;
+         padding: 0 6rem;
+         width: 500px;
+        }
+      }
+    }
+    
+    >section#presentacion{
+      h2{
+        width: 400px;
+      }
+      p{
+        width: 1000px;
+      }
+      div{
+        width: 80%;
+        figure{
+          max-width: 100%;
+          img{
+            width: 5rem;
+          }
+          figcaption{
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    >section#galeria{
+      grid-template-areas: "A B C";
+      grid-template-columns: auto auto 1fr;
+      justify-content: center;
+      justify-items: center;
+      height: 400px;
+      gap: 2rem;
+      
+      img{
+        height: 350px;
+
+      }
+      >img#grifo-3{
+        width: 700px;
+      }
+      >img#grifo-1{
+        width: 260px;
+      }
+      >img#grifo-2{
+        width: 260px;
+      }
+      
+    }
+    
+    >section#card{
+      .imagenMujer{
+        width: auto;
+      }
+      .tarjeta-sobresalida{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .botonDescargar{
+        margin-left: 4rem;
+        max-width: 260px;
+      }
+      .tarjeta-contenido-texto{
+        justify-content: center;
+        align-items: center;
+      }
+      .tarjeta-contenido-texto h3{
+        margin-left: 30px;
+      }
+      .tarjeta-contenido-texto p{
+        width: 230px;
+        margin-left: 30px;
+      }
+      .container-tarjeta{
+        height: 40vh;
+      }
+      .botonDescargar{
+        margin-left: 2rem;
+      }
+    }
+     
+  >section#marcas{
+    article{
+      div{
+        width: 100%;
+        justify-content: center;
+      }
+    }
+    
+  }
+  >section#testimonios{
+    article{
+      div{
+        .css-1idztwo{
+          height: 400px;
+        }
+      }
+    }
+  }
+  }
+  
+  
+}
