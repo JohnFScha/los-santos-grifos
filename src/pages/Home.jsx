@@ -5,9 +5,9 @@ import Carousel from "../components/Carousel/Carousel.jsx";
 import Entrega from "../assets/Atencion-personalizada-1.png";
 import Atencion from "../assets/star-badge.png";
 import Stock from "../assets/Stock-permanente-1.png";
-import Grifo1 from "../assets/Rectangle-8.png";
-import Grifo2 from "../assets/Rectangle-11.png";
-import Grifo3 from "../assets/Rectangle-10.png";
+import Grifo1 from "../assets/grifo-1.jpg";
+import Grifo2 from "../assets/grifo-2.jpg";
+import Grifo3 from "../assets/grifo-3.jpg";
 
 import italomix from "../assets/marcas/italomix.png";
 import Fango from "../assets/marcas/fango.png";

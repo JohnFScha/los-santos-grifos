@@ -22,7 +22,6 @@ const Contact = () => {
           <Button>Enviar Whatsapp</Button>
         </div>
         <section className="image-container">
-
         <img src={Griferia} alt="foto de muestra de nuestros productos" id="griferia-pie" />
         </section>
       </section>
