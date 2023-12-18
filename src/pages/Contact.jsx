@@ -3,6 +3,7 @@ import ContactContainer from "../components/Contact/ContactContainer";
 import Button from "../components/Buttons/Button";
 import { Link } from "react-router-dom";
 import { BsWhatsapp } from "react-icons/bs";
+import Griferia from '../assets/foto-pie-contacto.jpg'
 
 const Contact = () => {
   return (
@@ -20,6 +21,10 @@ const Contact = () => {
           </Link>
           <Button>Enviar Whatsapp</Button>
         </div>
+        <section className="image-container">
+
+        <img src={Griferia} alt="foto de muestra de nuestros productos" id="griferia-pie" />
+        </section>
       </section>
     </main>
   );

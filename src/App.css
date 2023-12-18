@@ -3,13 +3,14 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
   margin-bottom: 1rem;
-
-  >button {
-    padding: 1rem;
-    font-size: 2rem;
+  
+  >section#desktop-menu {
+    display: none;
+    
   }
 }
 
@@ -201,7 +202,7 @@ main {
   /*======================Sección Testimonios====================*/
 
   >section#testimonios {
-    margin-top: 20px;
+    margin: 40px 0;
   }
 
   /*======================Sección Contacto====================*/
@@ -211,8 +212,7 @@ main {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
-    padding: 0.7rem;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
 
     >h3 {
       font-weight: 700;
@@ -250,6 +250,12 @@ main {
       }
     }
   }
+  .image-container {
+    width: fit-content;
+       
+    #griferia-pie {
+    }
+  }
 
   /*======================Sección FAQ====================*/
 
@@ -280,7 +286,6 @@ main {
 /*======================Footer====================*/
 
 footer {
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
