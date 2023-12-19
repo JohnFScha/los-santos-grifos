@@ -33,7 +33,7 @@ const Carousel = () => {
     centerMode: true,
     centerPadding: "5%", // Ajusta según tus necesidades
   };
-
+  //...settings
   return (
     <Box>
       <Slider {...settings}>

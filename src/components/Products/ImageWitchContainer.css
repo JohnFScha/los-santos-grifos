@@ -65,3 +65,44 @@
 .products {
     margin-bottom: 50px;
 }
+
+@media(min-width: 768px) {
+    
+        .imagenMujer {
+          width: auto;
+        }
+  
+        .tarjeta-sobresalida {
+          width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+  
+        .botonDescargar {
+          margin-left: 4rem;
+          max-width: 260px;
+        }
+  
+        .tarjeta-contenido-texto {
+          justify-content: center;
+          align-items: center;
+        }
+  
+        .tarjeta-contenido-texto h3 {
+          margin-left: 30px;
+        }
+  
+        .tarjeta-contenido-texto p {
+          width: 230px;
+          margin-left: 30px;
+        }
+  
+        .container-tarjeta {
+          height: 40vh;
+        }
+  
+        .botonDescargar {
+          margin-left: 2rem;
+        }
+      
+}
