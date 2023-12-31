@@ -71,7 +71,7 @@ hr#divider {
     right: 0;
     height: 15vh !important;
     border-radius: 6px;
-    width: 60vw;
+    width: 50vw;
     background-color: var(--Gris-claro, #F2F2F2);
     flex-shrink: 0;
     display: flex;
@@ -81,7 +81,7 @@ hr#divider {
       display: grid;
       grid-template-columns: 1fr 10px 1fr;
       width: 100%;
-      padding: 0 2rem;
+      padding: 0 1rem;
 
       >hr#divider {
         width: 1px;
@@ -94,6 +94,11 @@ hr#divider {
         flex-direction: column;
         gap: 0.5rem;
         justify-self: start;
+        padding-left: 1rem;
+
+        >.contenido-2 {
+          font-size: 1rem;
+        }
       }
     }
   }
