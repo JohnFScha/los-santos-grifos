@@ -114,6 +114,8 @@
     width: 75vw;
     height: 100%;
     object-fit: cover;
+    object-position: top;
+    border-radius: 6px !important;
 
 
     >.foto-about {
