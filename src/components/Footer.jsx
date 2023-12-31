@@ -3,6 +3,8 @@ import Logo from "../assets/Group-4693.png";
 import { Link } from "react-router-dom";
 import { BiLogoFacebookSquare } from "react-icons/bi";
 import { RiInstagramFill } from "react-icons/ri";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -20,8 +22,14 @@ const Footer = () => {
       </div>
 
       <div>
-        <Link to={"mailto:lossantosgrifos@gmail.com"}>Email</Link>
-        <Link to={"tel:+541123864313"}>Telefono</Link>
+        <Link to={"mailto:lossantosgrifos@gmail.com"} id="contact-footer">
+          <BsFillTelephoneFill />
+          losantosgrifos2004@hotmail.com
+        </Link>
+        <Link to={"tel:+541123864313"} id="contact-footer">
+          <IoMdMail />
+          11 5573-6664
+        </Link>
         <div id="social-footer">
           <Link to={"https://facebook.com/lossantosgrifos"} target="_blank">
             <BiLogoFacebookSquare />

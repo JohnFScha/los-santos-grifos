@@ -14,7 +14,7 @@ import Fango from "../assets/marcas/fango.png";
 import rory from "../assets/marcas/rory.png";
 import treemme from "../assets/marcas/treemme.png";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
-import ImageWithText from "../components/Products/ImageWithText.jsx";
+import Slider from "react-infinite-logo-slider";
 
 const Home = () => {
   return (
@@ -83,14 +83,27 @@ const Home = () => {
 
       <section id="marcas">
         <h2>Marcas que comercializamos</h2>
-        <article>
-          <div>
+
+        <Slider
+          width="250px"
+          duration={40}
+          pauseOnHover={true}
+          blurBorders={false}
+          blurBoderColor={"#fff"}
+        >
+          <Slider.Slide>
             <img src={Fango} alt="fango" />
+          </Slider.Slide>
+          <Slider.Slide>
             <img src={rory} alt="rory" />
+          </Slider.Slide>
+          <Slider.Slide>
             <img src={italomix} alt="italomix" />
+          </Slider.Slide>
+          <Slider.Slide>
             <img src={treemme} alt="treemme" />
-          </div>
-        </article>
+          </Slider.Slide>
+        </Slider>
       </section>
       <section id="testimonios">
         <article>

@@ -16,7 +16,7 @@ const ContactContainer = () => {
             <div className="tarjeta-contenido-texto-contacto">
               <div className="columna">
                 <div className="contenido-2">
-                  <BsFillTelephoneFill /> 12345
+                  <BsFillTelephoneFill /> 11 5573-6664
                 </div>
                 <div className="contenido-2">
                   <IoMdMail /> lossantosgrifos@gmail.com

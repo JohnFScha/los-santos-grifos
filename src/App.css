@@ -648,6 +648,12 @@ p {
         padding-bottom: 0;
       }
 
+      >#contact-footer {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
       >img {
         width: 200px;
       }
