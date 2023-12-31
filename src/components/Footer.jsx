@@ -7,19 +7,22 @@ import { RiInstagramFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <footer>
-      <img src={Logo} alt="Los santos grifos" />
-      <Link to={'/'}>Inicio</Link>
-      <Link to={'/productos'}>Productos</Link>
-      <Link to={'/nosotros'}>Quienes somos</Link>
-      <Link to={'/faq'}>Preguntas frecuentes</Link>
-      <Link to={'/contacto'}>Contacto</Link>
-      <Link to={'mailto:lossantosgrifos@gmail.com'}>Email</Link>
-      <Link to={'tel:+541123864313'}>Telefono</Link>
       <div>
-        <Link to={'https://facebook.com/lossantosgrifos'} target="_blank">
+        <img src={Logo} alt="Los santos grifos" />
+      </div>
+
+      <Link to={"/"}>Inicio</Link>
+      <Link to={"/productos"}>Productos</Link>
+      <Link to={"/nosotros"}>Quienes somos</Link>
+      <Link to={"/faq"}>Preguntas frecuentes</Link>
+      <Link to={"/contacto"}>Contacto</Link>
+      <Link to={"mailto:lossantosgrifos@gmail.com"}>Email</Link>
+      <Link to={"tel:+541123864313"}>Telefono</Link>
+      <div>
+        <Link to={"https://facebook.com/lossantosgrifos"} target="_blank">
           <BiLogoFacebookSquare />
         </Link>
-        <Link to={'https://instagram.com/lossantosgrifos'} target="_blank">
+        <Link to={"https://instagram.com/lossantosgrifos"} target="_blank">
           <RiInstagramFill />
         </Link>
       </div>

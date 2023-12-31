@@ -530,7 +530,7 @@ p {
 
     >article#CTA {
       width: 80%;
-      margin: auto;
+      margin: auto auto 20px auto;
     }
 
     >section.img-container {
@@ -570,4 +570,32 @@ p {
       }
     }
   }
+ 
+  /* FOOTER */
+   
+  footer {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 2rem;
+    align-items: center;
+    color: var(--blanco);
+    background-color: var(--gris-oscuro);
+  
+    >a:nth-child(6) {
+      border-bottom: 1px solid var(--naranja-2);
+      width: 100%;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+  
+    >div {
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+      color: var(--naranja-1);
+      font-size: 2rem;
+    }
+  }
 }
+

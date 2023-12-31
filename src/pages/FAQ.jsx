@@ -11,13 +11,13 @@ const FAQ = () => {
       <section role="list" id="questions">
         <Questions />
       </section>
-      <article id="CTA">
+      <article id="CTA" className="CTA">
         Ante cualquier consulta comunicate con nostros por whatsapp
       </article>
       <WhatsappButton />
-      <section className="img-container">
+      {/* <section className="img-container">
         <img src={bottompic} alt="imagen de referencia" />
-      </section>
+      </section> */}
     </main>
   );
 };

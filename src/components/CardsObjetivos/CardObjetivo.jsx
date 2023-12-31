@@ -5,7 +5,7 @@ const CardObjetivo = ({ urlIconCard, titleCard, textCard, listItems }) => {
   return (
     <div className="centerCard">
       <div className="Card">
-        <div className="iconCard">
+        <div className="iconCard iconCard2">
           <img className="img-tarjeta-circle" src={urlIconCard} alt="" />
         </div>
         <div className="textCard">
