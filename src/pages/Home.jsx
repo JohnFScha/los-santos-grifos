@@ -86,10 +86,10 @@ const Home = () => {
 
         <Slider
           width="250px"
-          duration={40}
+          duration={30}
           pauseOnHover={true}
-          blurBorders={false}
-          blurBoderColor={"#fff"}
+          blurBorders={true}
+          blurBoderColor={"#FAFAFA"}
         >
           <Slider.Slide>
             <img src={Fango} alt="fango" />

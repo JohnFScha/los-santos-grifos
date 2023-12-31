@@ -40,11 +40,11 @@ const Header = () => {
         </Menu>
       </nav>
       <nav id="desktop-menu">
-        <Link to={"/"} className={isLinkActive("/") ? "active" : ""}>Pagina Principal</Link>
+        <Link to={"/"} className={isLinkActive("/") ? "active" : ""}>Inicio</Link>
+        <Link to={"/productos"} className={isLinkActive("/productos") ? "active" : ""}>Nuestros productos</Link>
         <Link to={"/nosotros"} className={isLinkActive("/nosotros") ? "active" : ""}>Quienes Somos</Link>
-        <Link to={"/productos"} className={isLinkActive("/productos") ? "active" : ""}>Productos</Link>
-        <Link to={"/contacto"} className={isLinkActive("/contacto") ? "active" : ""}>Contacto</Link>
         <Link to={"/faq"} className={isLinkActive("/faq") ? "active" : ""}>Preguntas frecuentes</Link>
+        <Link to={"/contacto"} className={isLinkActive("/contacto") ? "active" : ""}>Contacto</Link>
       </nav>
     </header>
   );
