@@ -14,28 +14,32 @@ const ContactContainer = () => {
         <div className="contenedor-tarjeta">
           <div className="tarjeta-sobresalida-2" style={{ height: "50vh" }}>
             <div className="tarjeta-contenido-texto-contacto">
-              <div className="contenido-2">
-                <BsFillTelephoneFill /> 12345
-              </div>
-              <div className="contenido-2">
-                <IoMdMail /> lossantosgrifos@gmail.com
-              </div>
-              <div className="contenido-2">
-                <IoLocationSharp /> San Rafael, Mendoza
+              <div className="columna">
+                <div className="contenido-2">
+                  <BsFillTelephoneFill /> 12345
+                </div>
+                <div className="contenido-2">
+                  <IoMdMail /> lossantosgrifos@gmail.com
+                </div>
+                <div className="contenido-2">
+                  <IoLocationSharp /> San Rafael, Mendoza
+                </div>
               </div>
               <hr id="divider" />
-              <div className="contenido-2">¡Seguinos en nuestras redes!</div>
-              <div className="contenido-2">
-                <FaFacebookSquare />
-                <Link to={"https://instagram.com/lossantosgrifos"}>
-                  @lossantosgrifos
-                </Link>
-              </div>
-              <div className="contenido-2">
-                <AiFillInstagram />
-                <Link to={"https://facebok.com/lossantosgrifos"}>
-                  Los Santos Grifos
-                </Link>
+              <div className="columna">
+                <div className="contenido-2">¡Seguinos en nuestras redes!</div>
+                <div className="contenido-2">
+                  <FaFacebookSquare />
+                  <Link to={"https://instagram.com/lossantosgrifos"}>
+                    @lossantosgrifos
+                  </Link>
+                </div>
+                <div className="contenido-2">
+                  <AiFillInstagram />
+                  <Link to={"https://facebok.com/lossantosgrifos"}>
+                    Los Santos Grifos
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

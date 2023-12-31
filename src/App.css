@@ -250,8 +250,8 @@ main {
     }
   }
 
-  .image-container {
-    width: fit-content;
+  #image-container {
+    
 
     #griferia-pie {}
   }
@@ -534,6 +534,31 @@ p {
     }
 
     >section.img-container {
+      width: 100%;
+      height: 100%;
+
+      >img {
+        width: 100vw;
+        height: 500px;
+        object-fit: cover;
+        object-position: bottom;
+      }
+    }
+
+    >section#explicacion {
+
+      >p {
+        width: 30%;
+        margin: auto;
+      }
+
+      >div#contact-data {
+        width: 20% !important;
+        margin: auto;
+      }
+    }
+
+    >section#image-container {
       width: 100%;
       height: 100%;
 
