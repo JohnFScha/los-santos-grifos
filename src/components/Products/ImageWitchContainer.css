@@ -70,6 +70,7 @@
 
   .imagenMujer {
     width: 50% !important;
+    
     >img {
       object-fit: cover;
       object-position: top;

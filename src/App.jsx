@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/inicio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/productos" element={<Products />} />
         <Route path="/nosotros" element={<About />} />
         <Route path="/contacto" element={<Contact />} />

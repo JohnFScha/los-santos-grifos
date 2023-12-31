@@ -22,7 +22,7 @@ const Header = () => {
           </MenuButton>
           <MenuList zIndex={10}>
             <MenuItem>
-              <Link to={"/inicio"}>Pagina Principal</Link>
+              <Link to={"/"}>Pagina Principal</Link>
             </MenuItem>
             <MenuItem>
               <Link to={"/nosotros"}>Quienes Somos</Link>
@@ -40,11 +40,11 @@ const Header = () => {
         </Menu>
       </nav>
       <nav id="desktop-menu">
-        <Link to={"/inicio"} className={isLinkActive("/") ? "active" : ""}>Pagina Principal</Link>
-        <Link to={"/nosotros"} className={isLinkActive("/") ? "active" : ""}>Quienes Somos</Link>
-        <Link to={"/productos"} className={isLinkActive("/") ? "active" : ""}>Productos</Link>
-        <Link to={"/contacto"} className={isLinkActive("/") ? "active" : ""}>Contacto</Link>
-        <Link to={"/faq"} className={isLinkActive("/") ? "active" : ""}>Preguntas frecuentes</Link>
+        <Link to={"/"} className={isLinkActive("/") ? "active" : ""}>Pagina Principal</Link>
+        <Link to={"/nosotros"} className={isLinkActive("/nosotros") ? "active" : ""}>Quienes Somos</Link>
+        <Link to={"/productos"} className={isLinkActive("/productos") ? "active" : ""}>Productos</Link>
+        <Link to={"/contacto"} className={isLinkActive("/contacto") ? "active" : ""}>Contacto</Link>
+        <Link to={"/faq"} className={isLinkActive("/faq") ? "active" : ""}>Preguntas frecuentes</Link>
       </nav>
     </header>
   );
