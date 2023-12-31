@@ -15,9 +15,9 @@ const FAQ = () => {
         Ante cualquier consulta comunicate con nostros por whatsapp
       </article>
       <WhatsappButton />
-      {/* <section className="img-container">
+      <section className="img-container">
         <img src={bottompic} alt="imagen de referencia" />
-      </section> */}
+      </section>
     </main>
   );
 };

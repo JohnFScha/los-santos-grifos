@@ -2,6 +2,7 @@ a#whatsapp {
   position: fixed;
   max-width: fit-content;
   bottom: 10%;
+  right: 15px;
   align-self: end;
   background-color: #25D366;
   font-size: 2rem;

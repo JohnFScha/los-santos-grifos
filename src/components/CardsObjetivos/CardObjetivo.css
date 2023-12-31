@@ -69,3 +69,33 @@
     font-weight: 700;
     line-height: 24px;
 }
+
+@media screen and (min-width: 768px) {
+    .Card {
+        padding: 1rem;
+        border-radius: 10px !important;
+    }
+
+    .textCard {
+        width: 100%;
+    }
+
+    .textCard p {
+        width: 90% !important;
+        text-align: left;
+    }
+    
+    .textCard ul {
+        width: 100%;
+        margin-left: 50px;
+
+        >li {
+            font-size: 1rem;
+        }
+    }
+    
+    .textCard h4 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}

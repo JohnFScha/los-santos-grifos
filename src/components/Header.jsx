@@ -2,34 +2,50 @@ import React from "react";
 import Logo from "../assets/Recurso-3-1.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation()
+
+  const isLinkActive = (pathname) => {
+    // Compare the current pathname with the link's pathname
+    return location.pathname === pathname;
+  };
+
   return (
     <header>
       <img src={Logo} alt="Los santos grifos" />
-      <Menu>
-        <MenuButton>
-          <AiOutlineMenu />
-        </MenuButton>
-        <MenuList>
-          <MenuItem>
-            <Link to={"/"}>Pagina Principal</Link>
-          </MenuItem>
-          <MenuItem>
-            <Link to={"/nosotros"}>Quienes Somos</Link>
-          </MenuItem>
-          <MenuItem>
-            <Link to={"/productos"}>Productos</Link>
-          </MenuItem>
-          <MenuItem>
-            <Link to={"/contacto"}>Contacto</Link>
-          </MenuItem>
-          <MenuItem>
-            <Link to={"/faq"}>Preguntas frecuentes</Link>
-          </MenuItem>
-        </MenuList>
-      </Menu>
+      <nav id="mobile-menu">
+        <Menu>
+          <MenuButton>
+            <AiOutlineMenu />
+          </MenuButton>
+          <MenuList zIndex={10}>
+            <MenuItem>
+              <Link to={"/inicio"}>Pagina Principal</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link to={"/nosotros"}>Quienes Somos</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link to={"/productos"}>Productos</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link to={"/contacto"}>Contacto</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link to={"/faq"}>Preguntas frecuentes</Link>
+            </MenuItem>
+          </MenuList>
+        </Menu>
+      </nav>
+      <nav id="desktop-menu">
+        <Link to={"/inicio"} className={isLinkActive("/") ? "active" : ""}>Pagina Principal</Link>
+        <Link to={"/nosotros"} className={isLinkActive("/") ? "active" : ""}>Quienes Somos</Link>
+        <Link to={"/productos"} className={isLinkActive("/") ? "active" : ""}>Productos</Link>
+        <Link to={"/contacto"} className={isLinkActive("/") ? "active" : ""}>Contacto</Link>
+        <Link to={"/faq"} className={isLinkActive("/") ? "active" : ""}>Preguntas frecuentes</Link>
+      </nav>
     </header>
   );
 };

@@ -11,15 +11,6 @@ const Products = () => {
           <h2>Nuestros productos</h2>
 
           <ImageWithText
-            imageUrl="/img/imgProducts.png"
-            title="Griferías y accesorios"
-            description="Fabricada con materiales de calidad que fusionan practicidad y elegancia."
-            imageClassName="contenedor-img1"
-            imgProductClassName="imagen-contenedor1"
-            contenedorImageClassName="contenedor1"
-            textImgClassName="text-contenedor-producto1"
-          />
-          <ImageWithText
             imageUrl="/img/cocina-minimalista2.png"
             title="Griferias para cocinas"
             description="Variedad de modelos importados que aportan durabilidad, comodidad y estética."
@@ -27,6 +18,15 @@ const Products = () => {
             imgProductClassName="imagen-contenedor2"
             contenedorImageClassName="contenedor2"
             textImgClassName="text-contenedor-producto2"
+          />
+          <ImageWithText
+            imageUrl="/img/imgProducts.png"
+            title="Griferías y accesorios"
+            description="Fabricada con materiales de calidad que fusionan practicidad y elegancia."
+            imageClassName="contenedor-img1"
+            imgProductClassName="imagen-contenedor1"
+            contenedorImageClassName="contenedor1"
+            textImgClassName="text-contenedor-producto1"
           />
           <ImageWithText
             imageUrl="/img/cocina-minimalista1.png"

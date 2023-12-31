@@ -20,12 +20,12 @@ const ImageWithContainer = ({
           <div className="container-tarjeta">
             <div className="tarjeta-sobresalida">
               <div className={`contenedor-image ${customClass}`}>
-                <img className="img-tarjeta" src={imageUrlTarjeta} alt="" />
+                <img className="img-tarjeta" srcSet="" src={imageUrlTarjeta} alt="" />
               </div>
               <div className="tarjeta-contenido-texto">
                 <h3>{title}</h3>
                 <p>{text}</p>
-                {showButton && <Boton />}
+                {showButton && <Boton>Descargar Catalogo</Boton>}
               </div>
             </div>
           </div>

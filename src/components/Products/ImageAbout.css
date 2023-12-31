@@ -1,61 +1,61 @@
 .contenedor-tarjeta-principal2 {
-    margin-top: 50px !important;
-    
+  margin-top: 50px !important;
+
 }
 
 .container-tarjeta2 {
-    position: relative;
-    height: 160px;
-    background: var(--Naranja-2, #F3A950);
+  position: relative;
+  height: 160px;
+  background: var(--Naranja-2, #F3A950);
 }
 
 .tarjeta-sobresalida2 {
-    position: relative;
-    display: flex;
-    top: -45px;
-    left: 0;
-    right: 0;
-    border-radius: 6px;
-    margin: 10px;
-    height: 30vh;
-    background-color: var(--Gris-claro, #F2F2F2);
-    flex-shrink: 0;
-    
+  position: relative;
+  display: flex;
+  top: -45px;
+  left: 0;
+  right: 0;
+  border-radius: 6px;
+  margin: 10px;
+  height: 30vh;
+  background-color: var(--Gris-claro, #F2F2F2);
+  flex-shrink: 0;
+
 }
 
 .img-tarjeta2 {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .tarjeta-contenido-texto2 {
-    display: flex;
-    flex-direction: column;
-    padding: 1.54rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1.54rem 0;
 }
 
 .tarjeta-contenido-texto2 h3 {
-    color: var(--Gris-oscuro, #3E3E40);
-    text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
+  color: var(--Gris-oscuro, #3E3E40);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 .tarjeta-contenido-texto2 p {
-    text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 /* .contenedor-image {
@@ -63,86 +63,104 @@
 } */
 
 .products {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 @media(min-width: 768px) {
-    
-        .imagenMujer2 {
-          width: auto;
-        }
-  
-        .tarjeta-sobresalida2 {
-          width: 500px;
-          height: 300px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-  
-        .botonDescargar2 {
-          margin-left: 4rem;
-          max-width: 260px;
-        }
-  
-        .tarjeta-contenido-texto2 {
-          justify-content: center;
-          align-items: center;
-        }
-  
-        .tarjeta-contenido-texto2 h3 {
-          margin-left: 30px;
-        }
-  
-        .tarjeta-contenido-texto2 p {
-          width: 230px;
-          margin-left: 30px;
-        }
-  
-        .container-tarjeta2 {
-          display: block;
-          width: 100%;
-          height: 300px;
-          margin-left: -10px;
-          margin-right: 10px;
-          border: 10px solid orange;
-        }
-  
-        .botonDescargar2 {
-          margin-left: 2rem;
-        }
-      
-        .flex-about{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-        }
 
-        .quienes-somos{
-          width: 450px;
-        }
-        .Card{
-          width:100%;
-          margin-left: 20px;
-          margin-right: 20px;
-        }
-        .textCard h4{
-          margin-left: 20px;
-        }
-        .textCard p{
-          width: 700px;
-          margin-left: 20px;
-          font-family: Montserrat;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 28px;
-        }
-       .iconCard2{
-         width: 50px;
-       }
+  .imagenMujer2 {
+    width: auto;
+  }
+
+  .tarjeta-sobresalida2 {
+    width: 75vw;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -50%;
+  }
+
+  .botonDescargar2 {
+    margin-left: 4rem;
+    max-width: 260px;
+  }
+
+  .tarjeta-contenido-texto2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tarjeta-contenido-texto2 h3 {
+    margin-left: 30px;
+  }
+
+  .tarjeta-contenido-texto2 p {
+    width: 230px;
+    margin-left: 30px;
+  }
+
+  .container-tarjeta2 {
+    display: block;
+    width: 100vw;
+    height: 400px;
+    margin-left: -10px;
+    margin-right: 10px;
+    border: 10px solid orange;
+  }
+
+  .img-tarjeta2 {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 75vw;
+    height: 100%;
+    object-fit: cover;
+
+
+    >.foto-about {
+      width: 100%;
+    }
+  }
+
+  .botonDescargar2 {
+    margin-left: 2rem;
+  }
+
+  .flex-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quienes-somos {
+    width: 450px;
+  }
+
+  .Card {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .textCard h4 {
+    margin-left: 20px;
+  }
+
+  .textCard p {
+    width: 700px;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .iconCard2 {
+    width: 50px;
+  }
 }
 
-.objetivos{
+.objetivos {
   margin-top: 50px;
 }
