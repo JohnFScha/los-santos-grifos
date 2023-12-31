@@ -8,7 +8,7 @@ import ImageAbout from "../components/Products/ImageAbout.jsx";
 
 const About = () => {
   return (
-    <div>
+    <main>
       <h2 className="about-h2">Quiénes somos</h2>
       <div className="flex-about">
         <div className="quienes-somos">
@@ -56,7 +56,7 @@ const About = () => {
           className="card-objetivo"
         />
       </div>
-    </div>
+    </main>
   );
 };
 
