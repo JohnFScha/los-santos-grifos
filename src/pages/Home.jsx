@@ -114,6 +114,7 @@ const Home = () => {
       <section id="testimonios">
         <article>
           <div>
+            <h2>Nuestros clientes</h2>
             <Carousel />
           </div>
         </article>
