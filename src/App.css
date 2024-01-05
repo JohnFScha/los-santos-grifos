@@ -50,18 +50,19 @@ main {
       }
 
       >hr#div-1 {
-        width: 60%;
-        background-color: var(--naranja-1);
-        height: 1px;
+        width: 70%;
+        background: linear-gradient(to right, var(--naranja-2), white);
+        height: 2.5px;
         border: none;
         margin-left: auto;
       }
 
       >hr#div-2 {
-        width: 60%;
+        width: 70%;
         margin-right: auto;
-        background-color: var(--naranja-1);
-        height: 1px;
+        background-color: var(--naranja-2);
+       
+        height: 2.5px;
         border: none;
       }
     }
@@ -417,9 +418,12 @@ p {
         z-index: 10;
 
         >h2#h2-home {
-          max-width: 500px;
-          line-height: 30px;
-          font-size: 2rem;
+          max-width: 550px;
+          font-size: 2.5rem;
+          color: #3E3E40;
+          font-weight: 700;
+          font-family: Montserrat,sans-serif;
+          line-height: 2.8rem;
         }
       }
 
