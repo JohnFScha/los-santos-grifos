@@ -119,15 +119,20 @@ main {
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
-        max-width: 5rem;
+        width: 100%;
 
-        >img {
+        > div {
           border-radius: 50%;
-          width: 4rem;
+          width: 5rem;
           background-color: var(--naranja-2);
           padding: 1rem;
-        }
 
+          >img {
+            width: 66px;
+          }
+        }
+        
+          
         >figcaption {
           font-size: 0.8rem;
         }
@@ -476,7 +481,7 @@ p {
         width: 80%;
 
         figure {
-          max-width: 100%;
+          /* max-width: 100%; */
 
           img {
             width: 5rem;

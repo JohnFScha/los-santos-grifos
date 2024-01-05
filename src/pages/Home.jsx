@@ -45,15 +45,21 @@ const Home = () => {
         ´
         <div role="group" id="info">
           <figure>
-            <img src={Stock} alt="stock permanente" />
+            <div>
+              <img src={Stock} alt="stock permanente" />
+            </div>
             <figcaption>Stock permanente</figcaption>
           </figure>
           <figure>
-            <img src={Atencion} alt="entrega inmediata" />
+            <div>
+              <img src={Atencion} alt="entrega inmediata" />
+            </div>
             <figcaption>Calidad Garantizada</figcaption>
           </figure>
           <figure>
-            <img src={Entrega} alt="atencion personalizada" />
+            <div>
+              <img src={Entrega} alt="atencion personalizada" />
+            </div>
             <figcaption>Atención personalizada</figcaption>
           </figure>
         </div>
