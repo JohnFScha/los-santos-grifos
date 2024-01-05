@@ -24,7 +24,7 @@ const Home = () => {
       <section role="list" id="productos">
         <div id="heading">
           <hr id="div-1" />
-          <h2 id="h2-home">Venta mayorista de giferías y bachas</h2>
+          <h2 id="h2-home">Venta mayorista de griferías y bachas</h2>
           <hr id="div-2" />
         </div>
         <div role="menu" id="actions">
