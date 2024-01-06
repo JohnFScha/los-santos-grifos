@@ -22,7 +22,7 @@ const Questions = () => {
         </h2>
         <AccordionPanel>
           La venta de nuestros productos está dirigida únicamente a casas de
-          Sanitarios y Ferreterías ubicadas en la provincia de Mendoza.
+          Sanitarios y Ferreterías.
         </AccordionPanel>
       </AccordionItem>
       <AccordionItem borderBottom="2px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'}>

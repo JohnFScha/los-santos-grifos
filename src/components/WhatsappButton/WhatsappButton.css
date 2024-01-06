@@ -1,15 +1,19 @@
 a#whatsapp {
   position: fixed;
-  max-width: fit-content;
+  width: fit-content;
   bottom: 10%;
-  right: 15px;
+  right: 4%;
   align-self: end;
   background-color: #25D366;
   font-size: 2rem;
   color: white;
   border-radius: 50%;
-  padding: 0.9rem;
+  padding: 0.7rem;
   margin: 10px;
   z-index: 1000;
-  box-shadow: 0px 0px 10px 1px var(--gris-oscuro);
+  box-shadow: 0px 1px 10px 0px var(--gris-oscuro);
+
+  >svg {
+    font-size: 2.5rem;
+  }
 }
