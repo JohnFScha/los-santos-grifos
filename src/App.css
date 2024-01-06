@@ -24,15 +24,15 @@ header {
 /*======================Sección principal de la pagina====================*/
 
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;
   animation: fadeIn 500ms ease-in;
 
   >h2 {
     margin: 3rem 0;
   }
-
+ 
   main#about {
     display: flex !important;
     flex-direction: column !important;
