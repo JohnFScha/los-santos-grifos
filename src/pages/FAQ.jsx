@@ -5,14 +5,12 @@ import bottompic from "../assets/bottom1.jpg";
 const FAQ = () => {
   return (
     <main>
-      <section id="heading">
-        <h2>Preguntas frecuentes</h2>
-      </section>
+      <h2>Preguntas frecuentes</h2>
       <section role="list" id="questions">
         <Questions />
       </section>
       <article id="CTA" className="CTA">
-        Ante cualquier consulta comunicate con nostros por whatsapp
+        Ante cualquier consulta comunicate con nosotros por WhatsApp
       </article>
       <WhatsappButton />
       <section className="img-container">

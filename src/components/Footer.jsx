@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/Group-4693.png";
+import Logo from "../assets/logo-footer.png";
 import { Link } from "react-router-dom";
 import { BiLogoFacebookSquare } from "react-icons/bi";
 import { RiInstagramFill } from "react-icons/ri";

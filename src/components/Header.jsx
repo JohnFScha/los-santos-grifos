@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/Recurso-3-1.png";
+import Logo from "../assets/logo-header.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { Link, useLocation } from "react-router-dom";

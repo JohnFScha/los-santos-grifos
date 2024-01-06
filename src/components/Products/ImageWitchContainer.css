@@ -5,7 +5,7 @@
 
 .container-tarjeta {
   position: relative;
-  height: 160px;
+  height: 60%;
   background: var(--Naranja-2, #F3A950);
 }
 
@@ -73,13 +73,13 @@
     
     >img {
       object-fit: cover;
-      object-position: top;
+      object-position: center;
     }
   }
 
   .tarjeta-sobresalida {
-    width: 75vw !important;
-    height: 400px;
+    width: 80vw !important;
+    height: 350px;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +93,7 @@
   .tarjeta-contenido-texto {
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 80%;
     gap: 2rem;
   }
 
@@ -109,7 +109,7 @@
   }
 
   .container-tarjeta {
-    height: 40vh;
+    /* height: 45vh !important; */
   }
 
   .botonDescargar {

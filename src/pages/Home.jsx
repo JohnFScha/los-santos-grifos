@@ -12,7 +12,7 @@ import Grifo3 from "../assets/grifo-3.jpg";
 import italomix from "../assets/marcas/italomix.png";
 import Fango from "../assets/marcas/fango.png";
 import rory from "../assets/marcas/rory.png";
-import treemme from "../assets/marcas/treemme.png";
+import treemme from "../assets/marcas/treemme.jpg";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 import Slider from "react-infinite-logo-slider";
 

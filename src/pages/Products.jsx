@@ -6,10 +6,9 @@ import ImageWithContainer from "../components/Products/ImageWithContainer";
 const Products = () => {
   return (
     <main>
+      <h2>Nuestros productos</h2>
       <section id="accesorios">
         <div className="products">
-          <h2>Nuestros productos</h2>
-
           <ImageWithText
             imageUrl="/img/cocina-minimalista2.png"
             title="Griferias para cocinas"

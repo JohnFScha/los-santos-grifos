@@ -11,7 +11,7 @@ import {
 const Questions = () => {
   return (
     <Accordion defaultIndex={[0]} allowMultiple>
-      <AccordionItem borderBottom="2px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'}>
+      <AccordionItem borderBottom="1px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'} fontSize={"18px"}>
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
@@ -25,7 +25,7 @@ const Questions = () => {
           Sanitarios y Ferreterías.
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderBottom="2px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'}>
+      <AccordionItem borderBottom="1px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'} fontSize={"18px"}>
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
@@ -41,7 +41,7 @@ const Questions = () => {
           venta cercanos a tu ubicación.
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderBottom="2px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'}>
+      <AccordionItem borderBottom="1px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'} fontSize={"18px"}>
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
@@ -55,7 +55,7 @@ const Questions = () => {
           descargar el catálogo en tu dispositivo.
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderBottom="2px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'}>
+      <AccordionItem borderBottom="1px" borderTop="0" marginBottom={"1rem"} borderBottomColor={'#F3A950'} fontSize={"18px"}>
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
@@ -69,7 +69,7 @@ const Questions = () => {
           información que necesites.
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderBottom={"2px"} borderTop={"0"} borderBottomColor={'#F3A950'}>
+      <AccordionItem borderBottom={"1px"} borderTop={"0"} borderBottomColor={'#F3A950'} fontSize={"18px"}>
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
@@ -83,7 +83,7 @@ const Questions = () => {
           forma presencial en el local del cliente.
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderBottom={"2px"} borderTop={"0"} borderBottomColor={'#F3A950'}>
+      <AccordionItem borderBottom={"1px"} borderTop={"0"} borderBottomColor={'#F3A950'} fontSize={"18px"}>
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
@@ -100,7 +100,7 @@ const Questions = () => {
           chamote.
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderBottom={"2px !important"} borderTop={"0"} borderBottomColor={'#F3A950 !important'}>
+      <AccordionItem borderBottom={"1px !important"} borderTop={"0"} borderBottomColor={'#F3A950 !important'} fontSize={"18px"}>
         <h2>
           <AccordionButton>
             <Box as="span" flex="1" textAlign="left" fontWeight={600}>
