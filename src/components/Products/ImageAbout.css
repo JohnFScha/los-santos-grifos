@@ -5,7 +5,7 @@
 
 .container-tarjeta2 {
   position: relative;
-  height: 160px;
+  height: 60%;
   background: var(--Naranja-2, #F3A950);
 }
 
@@ -77,7 +77,7 @@
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    top: -50%;
+    top: -20%;
   }
 
   .botonDescargar2 {
@@ -102,9 +102,7 @@
   .container-tarjeta2 {
     display: block;
     width: 100vw;
-    height: 400px;
-    margin-left: -10px;
-    margin-right: 10px;
+    height: 500px;
     border: 10px solid orange;
   }
 

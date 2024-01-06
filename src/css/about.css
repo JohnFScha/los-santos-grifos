@@ -51,12 +51,12 @@
     }
 
     .quienes-somos p {
-        font-size: 1rem;
+        font-size: 18px;
     }
 
     .flex-about {
         flex-direction: column !important;
-        gap: 10rem;
+        gap: 5rem;
     }
 
     .objetivos {

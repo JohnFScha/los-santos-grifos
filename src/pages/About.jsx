@@ -8,7 +8,7 @@ import ImageAbout from "../components/Products/ImageAbout.jsx";
 
 const About = () => {
   return (
-    <main>
+    <main id="about">
       <h2>Quiénes somos</h2>
       <div className="flex-about">
         <div className="quienes-somos">

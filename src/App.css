@@ -24,13 +24,20 @@ header {
 /*======================Sección principal de la pagina====================*/
 
 main {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   animation: fadeIn 500ms ease-in;
 
   >h2 {
     margin: 3rem 0;
+  }
+
+  main#about {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    animation: fadeIn 500ms ease-in;
   }
 
   /*======================Sección productos====================*/
@@ -247,23 +254,23 @@ main {
       justify-content: center;
 
       >div.boton {
-        margin: 0;
 
         >button {
           margin: 0;
-          font-weight: 500;
-        }
-      }
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          margin: 0;
+          font-weight: 600;
+          font-size: 18px;
 
-      >a {
-        background-color: #25D366;
-        font-size: 2.5rem;
-        color: white;
-        border-radius: 50%;
-        margin: 10px;
+          >a {
 
-        >svg {
-          text-shadow: 5px 5px 10px black;
+            >svg {
+              font-size: 24px;
+            }
+          }
         }
       }
     }
@@ -376,7 +383,9 @@ p {
 /*======================Media queries====================*/
 
 
-@media screen and (min-width: 768px) /* and (max-width: 1440px) */ {
+@media screen and (min-width: 768px)
+/* and (max-width: 1440px) */
+  {
   body {
     background-color: var(--gris-claro);
   }
@@ -420,7 +429,7 @@ p {
       font-weight: 700;
       margin: 5rem 0;
     }
-  
+
     >section#productos {
       display: flex !important;
       justify-content: center !important;
@@ -435,7 +444,7 @@ p {
       flex-direction: column;
       align-items: flex-start;
       justify-content: space-around;
-      
+
 
       >div#heading {
         background-image: none;
