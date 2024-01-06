@@ -443,7 +443,7 @@ p {
 
         >h2#h2-home {
           max-width: 550px;
-          font-size: 2.5rem;
+          font-size: 40px;
           color: #3E3E40;
           font-weight: 700;
           font-family: Montserrat, sans-serif;
@@ -475,7 +475,7 @@ p {
     >section#productos::before {
       display: block;
       content: "";
-      background-image: linear-gradient(to left, transparent 60%, white 75%);
+      background-image: linear-gradient(to left, transparent 57%, white 68%);
       height: 500px;
       width: -webkit-fill-available;
       position: absolute;
@@ -685,8 +685,12 @@ p {
 
       >#contact-footer {
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
+      }
+
+      >#social-footer {
+        gap: 1.5rem;
       }
 
       >img {

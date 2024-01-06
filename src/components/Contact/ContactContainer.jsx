@@ -19,7 +19,7 @@ const ContactContainer = () => {
                   <BsFillTelephoneFill /> 11 5573-6664
                 </div>
                 <div className="contenido-2">
-                  <IoMdMail /> lossantosgrifos@gmail.com
+                  <IoMdMail /> losantosgrifos@hotmail.com
                 </div>
                 <div className="contenido-2">
                   <IoLocationSharp /> San Rafael, Mendoza
@@ -27,16 +27,16 @@ const ContactContainer = () => {
               </div>
               <hr id="divider" />
               <div className="columna">
-                <div className="contenido-2">¡Seguinos en nuestras redes!</div>
+                <div className="contenido-2" id="subtitle">¡Seguinos en nuestras redes!</div>
                 <div className="contenido-2">
                   <FaFacebookSquare />
-                  <Link to={"https://instagram.com/lossantosgrifos"}>
-                    @lossantosgrifos
+                  <Link to={"https://instagram.com/losantosgrifos"}>
+                    @losantosgrifos
                   </Link>
                 </div>
                 <div className="contenido-2">
                   <AiFillInstagram />
-                  <Link to={"https://facebok.com/lossantosgrifos"}>
+                  <Link to={"https://facebok.com/losantosgrifos"}>
                     Los Santos Grifos
                   </Link>
                 </div>

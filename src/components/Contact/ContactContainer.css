@@ -34,7 +34,24 @@ div.tarjeta-contenido-texto-contacto {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+
+    >.contenido-2 {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: small;
+      text-decoration: underline;
+      
+      >svg {
+        font-size: 1.2rem;
+      }
+    }
   }
+
+    #subtitle {
+      text-decoration: none;
+    }
+
 }
 
 hr#divider {
@@ -44,17 +61,11 @@ hr#divider {
   width: 100%;
 }
 
-.contenido-2 {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: qre;
-  font-size: small;
 
-  >svg {
-    font-size: 1.2rem;
-  }
-}
+
+
+
+
 
 @media(min-width: 768px) {
 
@@ -69,15 +80,15 @@ hr#divider {
     top: -40px;
     left: 0;
     right: 0;
-    height: 15vh !important;
+    height: 16vh !important;
     border-radius: 6px;
-    width: 50vw;
+    width: 65%;
     background-color: var(--Gris-claro, #F2F2F2);
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
 
-    div.tarjeta-contenido-texto-contacto {
+    >div.tarjeta-contenido-texto-contacto {
       display: grid;
       grid-template-columns: 1fr 10px 1fr;
       width: 100%;
@@ -97,7 +108,8 @@ hr#divider {
         padding-left: 1rem;
 
         >.contenido-2 {
-          font-size: 1rem;
+          font-size: 18px;
+          font-weight: 500;
         }
       }
     }
