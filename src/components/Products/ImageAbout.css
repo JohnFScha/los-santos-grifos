@@ -103,7 +103,7 @@
     display: block;
     width: 100vw;
     height: 500px;
-    border: 10px solid orange;
+    /* border: 10px solid orange; */
   }
 
   .img-tarjeta2 {
@@ -154,11 +154,20 @@
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
-  }
+    color: #3E3E40;
+font-feature-settings: 'clig' off, 'liga' off;
 
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+  }
+/* 
   .iconCard2 {
     width: 50px;
-  }
+  } */
 }
 
 .objetivos {

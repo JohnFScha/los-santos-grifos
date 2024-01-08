@@ -34,13 +34,13 @@ const About = () => {
       <div className="objetivos">
         <CardObjetivo
           urlIconCard="/img/iconCard1.svg"
-          titleCard="Mision"
+          titleCard="Misión"
           textCard="Queremos brindar soluciones innovadoras, fusionando la artesanía con la funcionalidad, para mejorar la experiencia diaria de cada espacio, manteniendo un compromiso inquebrantable con la excelencia y la satisfacción del cliente."
           className="card-objetivo"
         />
         <CardObjetivo
           urlIconCard="/img/iconCard2.svg"
-          titleCard="Vision"
+          titleCard="Visión"
           textCard="Apuntamos a ser reconocidos como referentes en el mercado de griferías y accesorios para el hogar en el interior del país por nuestra amplia gama de productos de alta calidad y diseño exclusivo, junto con nuestra atención personalizada."
           className="card-objetivo"
         />

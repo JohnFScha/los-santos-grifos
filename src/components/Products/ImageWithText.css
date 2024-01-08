@@ -7,6 +7,29 @@
 
 /* ************* CONTENEDOR DE PRODUCTO 1 *************  */
 
+.contenedor2{
+    background-image: url('/img/cocina1.png');
+    /* background-size: cover; */
+   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contenedor1{
+    margin: 0;
+  padding: 0;
+  height: 440px;
+  background-image: url('/img/cocina2b.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Hacer que el contenedor ocupe todo el ancho disponible */
+  text-align: left;
+  color: white;
+  padding: 20px;
+}
+
 .imagen-contenedor1 {
     width: 100%;
     height: 100%;
@@ -16,7 +39,7 @@
 }
 
 .text-contenedor-producto1 {
-    width: 50%;
+    width: 30%;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -100,11 +123,11 @@
 }
 
 @media(min-width: 768px){
-    .contenedor1{
-        height: 480px;
-    }
+    /* .contenedor1{
+        /* height: 480px; 
+    } */
    .contenedor2{
-    height: 380px;
+    height: 480px;
    }
    .imagen-contenedor1{
     transform: scale(1.3) scaleX(-1);

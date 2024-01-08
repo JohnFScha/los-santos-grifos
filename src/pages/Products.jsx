@@ -10,7 +10,7 @@ const Products = () => {
       <section id="accesorios">
         <div className="products">
           <ImageWithText
-            imageUrl="/img/cocina-minimalista2.png"
+            // imageUrl="/img/cocina1.png"
             title="Griferias para cocinas"
             description="Variedad de modelos importados que aportan durabilidad, comodidad y estética."
             imageClassName="contenedor-img2"
@@ -19,7 +19,7 @@ const Products = () => {
             textImgClassName="text-contenedor-producto2"
           />
           <ImageWithText
-            imageUrl="/img/imgProducts.png"
+            // imageUrl="/img/cocina2.png"
             title="Griferías y accesorios"
             description="Fabricada con materiales de calidad que fusionan practicidad y elegancia."
             imageClassName="contenedor-img1"
