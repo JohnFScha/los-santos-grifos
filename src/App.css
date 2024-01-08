@@ -32,7 +32,7 @@ main {
   >h2 {
     margin: 3rem 0;
   }
- 
+
   main#about {
     display: flex !important;
     flex-direction: column !important;
@@ -383,9 +383,7 @@ p {
 /*======================Media queries====================*/
 
 
-@media screen and (min-width: 768px)
-/* and (max-width: 1440px) */
-  {
+@media screen and (min-width: 768px) {
   body {
     background-color: var(--gris-claro);
   }
@@ -424,6 +422,9 @@ p {
 
   /* Home */
   main {
+    /* max-width: 1440px;
+    margin: auto; */
+
     >h2 {
       font-size: 40px;
       font-weight: 700;
