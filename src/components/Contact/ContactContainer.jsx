@@ -15,12 +15,12 @@ const ContactContainer = () => {
           <div className="tarjeta-sobresalida-2" style={{ height: "50vh" }}>
             <div className="tarjeta-contenido-texto-contacto">
               <div className="columna">
-                <div className="contenido-2">
+                <Link className="contenido-2" to={"mailto:losantosgrifos@hotmail.com"}>
                   <BsFillTelephoneFill /> 11 5573-6664
-                </div>
-                <div className="contenido-2">
+                </Link>
+                <Link className="contenido-2" to={"https://api.whatsapp.com/send/?phone=1138889199&text&type=phone_number&app_absent=0"}>
                   <IoMdMail /> losantosgrifos@hotmail.com
-                </div>
+                </Link>
                 <div className="contenido-2">
                   <IoLocationSharp /> San Rafael, Mendoza
                 </div>
@@ -29,14 +29,14 @@ const ContactContainer = () => {
               <div className="columna">
                 <div className="contenido-2" id="subtitle">¡Seguinos en nuestras redes!</div>
                 <div className="contenido-2">
-                  <FaFacebookSquare />
-                  <Link to={"https://instagram.com/losantosgrifos"}>
+                  <AiFillInstagram />
+                  <Link to={"https://instagram.com/losantosgrifos"} rel="noopener noreferrer" target="_blank">
                     @losantosgrifos
                   </Link>
                 </div>
                 <div className="contenido-2">
-                  <AiFillInstagram />
-                  <Link to={"https://facebok.com/losantosgrifos"}>
+                  <FaFacebookSquare />
+                  <Link to={"https://facebok.com/losantosgrifos"} rel="noopener noreferrer" target="_blank">
                     Los Santos Grifos
                   </Link>
                 </div>
