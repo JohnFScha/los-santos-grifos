@@ -12,8 +12,10 @@ header {
   z-index: 1000;
   background: #FEFEFE;
 
-  >img {
-    width: 50%;
+  > a {
+    >img {
+      width: 50%;
+    }
   }
 
   >#desktop-menu {
