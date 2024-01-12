@@ -78,7 +78,7 @@
   }
 
   .tarjeta-sobresalida {
-    width: 80vw !important;
+    width: 90% !important;
     height: 350px;
     justify-content: space-between;
     margin-left: auto;
@@ -109,7 +109,7 @@
   }
 
   .container-tarjeta {
-    /* height: 45vh !important; */
+    height: 30% !important;
   }
 
   .botonDescargar {

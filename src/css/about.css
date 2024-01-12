@@ -44,10 +44,11 @@
     .about-h2 {
         margin: 3rem 0 !important;
         font-size: 1.5rem;
-    }
+    }   
 
     .quienes-somos {
-        width: 75vw !important;
+        width: 100% !important;
+        padding: 0 1rem;
     }
 
     .quienes-somos p {

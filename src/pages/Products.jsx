@@ -42,7 +42,7 @@ const Products = () => {
           </div>
 
           <ImageWithContainer
-            imageUrlTarjeta="/img/mujer-trabajando.png"
+            imageUrlTarjeta="./src/assets/mujer-trabajando.png"
             customClass="imagenMujer"
             title="Conocé nuestras novedades"
             text="Mantenete al tanto de las nuevas propuestas"
