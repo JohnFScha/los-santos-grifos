@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Buttons/Button";
 import ImageWithContainer from "../components/Products/ImageWithContainer";
+import WhatsappButton from '../components/WhatsappButton/WhatsappButton'
 
 const Products = () => {
   return (
@@ -49,6 +50,7 @@ const Products = () => {
           showButton={true}
         />
       </section>
+      <WhatsappButton />
     </main>
   );
 };

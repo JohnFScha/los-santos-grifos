@@ -5,6 +5,8 @@ import about from "../assets/about.jpg";
 import ImageWithContainer from "../components/Products/ImageWithContainer";
 import CardObjetivo from "../components/CardsObjetivos/CardObjetivo.jsx";
 import ImageAbout from "../components/Products/ImageAbout.jsx";
+import WhatsappButton from '../components/WhatsappButton/WhatsappButton'
+
 
 const About = () => {
   return (
@@ -56,6 +58,7 @@ const About = () => {
           className="card-objetivo"
         />
       </div>
+      <WhatsappButton />
     </main>
   );
 };
