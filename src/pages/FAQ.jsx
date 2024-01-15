@@ -4,7 +4,7 @@ import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 import bottompic from "../assets/bottom1.jpg";
 const FAQ = () => {
   return (
-    <main>
+    <main className="animate__animated animate__fadeInDown  animate__fast">
       <h2>Preguntas frecuentes</h2>
       <section role="list" id="questions">
         <Questions />

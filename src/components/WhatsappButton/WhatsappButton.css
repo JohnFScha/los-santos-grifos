@@ -1,5 +1,5 @@
 a#whatsapp {
-  position: fixed;
+  position: sticky;
   width: fit-content;
   bottom: 10%;
   right: 4%;

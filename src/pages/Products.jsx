@@ -5,7 +5,7 @@ import ImageWithContainer from "../components/Products/ImageWithContainer";
 
 const Products = () => {
   return (
-    <main>
+    <main className="animate__animated animate__fadeInDown  animate__fast">
       <h2>Nuestros productos</h2>
       <section id="accesorios">
         <div className="products">

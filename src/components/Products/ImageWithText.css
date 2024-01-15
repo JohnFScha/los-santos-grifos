@@ -8,7 +8,7 @@
 /* ************* CONTENEDOR DE PRODUCTO 1 *************  */
 
 .contenedor2{
-    background-image: url('/img/cocina1.png');
+    background-image: url('src/assets/img/cocina1.png');
     /* background-size: cover; */
    
     background-position: center;

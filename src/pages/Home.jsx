@@ -18,7 +18,7 @@ import Slider from "react-infinite-logo-slider";
 
 const Home = () => {
   return (
-    <main id="Home">
+    <main id="Home" className="animate__animated animate__fadeInDown  animate__fast">
       {/* =============== Seccion de productos =============== */}
 
       <section role="list" id="productos">

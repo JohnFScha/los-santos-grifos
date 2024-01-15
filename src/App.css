@@ -680,6 +680,9 @@ p {
     align-items: center;
     color: var(--blanco);
     background-color: var(--gris-oscuro);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
 
     >div {
       display: flex;
