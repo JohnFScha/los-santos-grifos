@@ -428,6 +428,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1rem;
 
     >h2 {
       font-size: 40px;
@@ -672,7 +673,7 @@ p {
         flex-direction: column;
         justify-content: space-evenly;
         gap: 2rem;
-        width: 100vw;
+        width: 100%;
 
         > div:nth-child(1) {
           height: 500px;
@@ -763,6 +764,10 @@ p {
             }
           }
         }
+      }
+
+      >div {
+        margin: 5rem 0;
       }
     }
   }

@@ -1,9 +1,6 @@
 import React from "react";
 import Button from "../components/Buttons/Button";
 import ImageWithContainer from "../components/Products/ImageWithContainer";
-import cocina1 from "../assets/cocina1.jpg";
-import cocina2 from "../assets/cocina2.jpg";
-import cocina3 from "../assets/cocina3.jpg";
 
 const Products = () => {
   return (
