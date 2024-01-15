@@ -1,5 +1,5 @@
-.contenedor{
-    width: 100% ;
+.contenedor {
+    width: 100%;
     height: 160px;
     position: relative;
     margin-top: 10px;
@@ -7,27 +7,27 @@
 
 /* ************* CONTENEDOR DE PRODUCTO 1 *************  */
 
-.contenedor2{
-    background-image: url('src/assets/img/cocina1.png');
-    /* background-size: cover; */
-   
-    background-position: center;
-    background-repeat: no-repeat;
+.contenedor2 {
+    background-image: url('../../assets/cocina1.jpg');
+    background-size: cover; 
+    background-position: center center;
 }
-.contenedor1{
+
+.contenedor1 {
     margin: 0;
-  padding: 0;
-  height: 440px;
-  background-image: url('/img/cocina2b.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  width: 100%; /* Hacer que el contenedor ocupe todo el ancho disponible */
-  text-align: left;
-  color: white;
-  padding: 20px;
+    padding: 0;
+    height: 440px;
+    background-image: url('/img/cocina2b.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* Hacer que el contenedor ocupe todo el ancho disponible */
+    text-align: left;
+    color: white;
+    padding: 20px;
 }
 
 .imagen-contenedor1 {
@@ -52,12 +52,13 @@
     background: linear-gradient(270deg, #FEFEFE 34%, rgba(254, 254, 254, 0.80) 71%, rgba(254, 254, 254, 0) 100%);
 }
 
-.contenedor-img1{
+.contenedor-img1 {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.text-contenedor-producto1 h3{
+
+.text-contenedor-producto1 h3 {
     color: #3E3E40;
     font-size: 14px;
     font-family: Montserrat;
@@ -66,7 +67,7 @@
     word-wrap: break-word;
 }
 
-.text-contenedor-producto1 p{
+.text-contenedor-producto1 p {
     text-align: right;
     color: #3E3E40;
     font-size: 14px;
@@ -81,7 +82,7 @@
 .imagen-contenedor2 {
     width: 100%;
     height: 100%;
-    object-fit: cover;  
+    object-fit: cover;
 }
 
 .text-contenedor-producto2 {
@@ -97,12 +98,13 @@
     background: linear-gradient(90deg, #FEFEFE 34%, rgba(254, 254, 254, 0.80) 71%, rgba(254, 254, 254, 0) 100%);
 }
 
-.contenedor-img2{
+.contenedor-img2 {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.text-contenedor-producto2 h3{
+
+.text-contenedor-producto2 h3 {
     text-align: left;
     color: #3E3E40;
     font-size: 14px;
@@ -112,7 +114,7 @@
     word-wrap: break-word;
 }
 
-.text-contenedor-producto2 p{
+.text-contenedor-producto2 p {
     text-align: left;
     color: #3E3E40;
     font-size: 14px;
@@ -122,40 +124,47 @@
     word-wrap: break-word;
 }
 
-@media(min-width: 768px){
-    /* .contenedor1{
-        /* height: 480px; 
-    } */
-   .contenedor2{
-    height: 480px;
-   }
-   .imagen-contenedor1{
-    transform: scale(1.3) scaleX(-1);
-   }
-   .imagen-contenedor2 img{
-    transform: translateX(5%) translateY(5%);
-   }
+@media(min-width: 768px) {
 
-   .text-contenedor-producto1{
-    padding-right: 3rem;
-   }
-   .text-contenedor-producto2{
-    padding-left: 3rem;
-   }
-   .text-contenedor-producto1 p{
-    width: 150px;
-    margin-top: 3rem;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-   }
-   .text-contenedor-producto2 p{
-    width: 150px;
-    margin-top: 3rem;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-   }
+    .contenedor1 {
+        height: 480px;
+    }
+
+    .contenedor2 {
+        height: 480px;
+    }
+
+    .imagen-contenedor1 {
+        transform: scale(1.3) scaleX(-1);
+    }
+
+    .imagen-contenedor2 img {
+        transform: translateX(5%) translateY(5%);
+    }
+
+    .text-contenedor-producto1 {
+        padding-right: 3rem;
+    }
+
+    .text-contenedor-producto2 {
+        padding-left: 3rem;
+    }
+
+    .text-contenedor-producto1 p {
+        width: 150px;
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-contenedor-producto2 p {
+        width: 150px;
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

@@ -1,54 +1,56 @@
 import React from "react";
-import ImageWithText from "../components/Products/ImageWithText";
 import Button from "../components/Buttons/Button";
 import ImageWithContainer from "../components/Products/ImageWithContainer";
+import cocina1 from "../assets/cocina1.jpg";
+import cocina2 from "../assets/cocina2.jpg";
+import cocina3 from "../assets/cocina3.jpg";
 
 const Products = () => {
   return (
     <main className="animate__animated animate__fadeInDown  animate__fast">
       <h2>Nuestros productos</h2>
       <section id="accesorios">
-        <div className="products">
-          <ImageWithText
-            // imageUrl="/img/cocina1.png"
-            title="Griferias para cocinas"
-            description="Variedad de modelos importados que aportan durabilidad, comodidad y estética."
-            imageClassName="contenedor-img2"
-            imgProductClassName="imagen-contenedor2"
-            contenedorImageClassName="contenedor2"
-            textImgClassName="text-contenedor-producto2"
-          />
-          <ImageWithText
-            // imageUrl="/img/cocina2.png"
-            title="Griferías y accesorios"
-            description="Fabricada con materiales de calidad que fusionan practicidad y elegancia."
-            imageClassName="contenedor-img1"
-            imgProductClassName="imagen-contenedor1"
-            contenedorImageClassName="contenedor1"
-            textImgClassName="text-contenedor-producto1"
-          />
-          <ImageWithText
-            imageUrl="/img/cocina-minimalista1.png"
-            title="Bachas artesanales"
-            description="Piezas únicas y exclusivas realizadas
-            en cerámica de alta calidad."
-            imageClassName="contenedor-img2"
-            imgProductClassName="imagen-contenedor2"
-            contenedorImageClassName="contenedor2"
-            textImgClassName="text-contenedor-producto2"
-          />
-          <div style={{ marginTop: "20px", marginBottom: "60px" }}>
-            <Button>Descargar Catalogo</Button>
+        <article className="products">
+          <div>
+            <div className="text">
+              <h2>Griferías para baño</h2>
+              <p>
+                Fabricada con materiales de calidad <br /> que fusionan practicidad y
+                elegancia.
+              </p>
+            </div>
           </div>
+          <div>
+            <div className="text">
+              <h2>Griferías para cocina</h2>
+              <p>
+                Variedad de modelos importados que <br /> aportan durabilidad,
+                comodidad y estética.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div className="text">
+              <h2>Bachas artesanales</h2>
+              <p>
+                Piezas únicas y exclusivas realizadas <br /> en cerámica de alta
+                calidad.
+              </p>
+            </div>
+          </div>
+        </article>
 
-          <ImageWithContainer
-            imageUrlTarjeta="./src/assets/mujer-trabajando.png"
-            customClass="imagenMujer"
-            title="Conocé nuestras novedades"
-            text="Mantenete al tanto de las nuevas propuestas"
-            showButton={true}
-          />
+        <div style={{ marginTop: "20px", marginBottom: "60px" }}>
+          <Button>Descargar Catalogo</Button>
         </div>
+
+        <ImageWithContainer
+          imageUrlTarjeta="./src/assets/mujer-trabajando.png"
+          customClass="imagenMujer"
+          title="Conocé nuestras novedades"
+          text="Mantenete al tanto de las nuevas propuestas"
+          showButton={true}
+        />
       </section>
     </main>
   );

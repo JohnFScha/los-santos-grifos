@@ -12,7 +12,7 @@ header {
   z-index: 1000;
   background: #FEFEFE;
 
-  > a {
+  >a {
     >img {
       width: 50%;
     }
@@ -58,7 +58,7 @@ main {
       background-image: linear-gradient(to bottom, #FEFEFE 31.13%, rgba(254, 254, 254, 0.67) 54.27%, rgba(254, 254, 254, 0.20) 70.79%, rgba(254, 254, 254, 0.00) 86.84%);
       place-content: start;
 
-      > h2 {
+      >h2 {
         font-size: 1.2rem;
         text-align: center;
         padding: 0 4rem;
@@ -66,7 +66,7 @@ main {
         color: var(--gris-oscuro);
       }
 
-      > hr#div-1 {
+      >hr#div-1 {
         width: 70%;
         background: linear-gradient(to right, var(--naranja-2) 50%, transparent);
         height: 2.5px;
@@ -74,7 +74,7 @@ main {
         margin-left: auto;
       }
 
-      > hr#div-2 {
+      >hr#div-2 {
         width: 70%;
         margin-right: auto;
         background-color: var(--naranja-2);
@@ -84,7 +84,7 @@ main {
       }
     }
 
-    > div#actions {
+    >div#actions {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -93,11 +93,11 @@ main {
       padding: 1rem;
       background-image: linear-gradient(to top, #FEFEFE 41.05%, rgba(254, 254, 254, 0.67) 62.29%, rgba(254, 254, 254, 0.20) 78.82%, rgba(254, 254, 254, 0.00) 91.09%);
 
-      > h3 {
+      >h3 {
         font-weight: bold;
       }
 
-      > button {
+      >button {
         background-color: var(--naranja-2);
         padding: 0.5rem;
         border-radius: 0.5rem;
@@ -316,7 +316,6 @@ main {
   }
 }
 
-
 /*======================Footer====================*/
 
 footer {
@@ -426,8 +425,9 @@ p {
     max-width: 1440px;
     margin: auto;
     background-color: #FEFEFE;
-    backdrop-filter: opacity(20%);
-    -webkit-backdrop-filter: opacity(20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     >h2 {
       font-size: 40px;
@@ -448,7 +448,7 @@ p {
       flex-direction: column;
       align-items: flex-start;
       justify-content: space-around;
-    
+
 
       >div#heading {
         background-image: none;
@@ -665,7 +665,106 @@ p {
       }
     }
 
+    >section#accesorios {
 
+      >article.products {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2rem;
+        width: 100vw;
+
+        > div:nth-child(1) {
+          height: 500px;
+          width: 100%;
+          background-image: url('./assets/cocina1.png');
+          background-position: center;
+          background-size: cover;
+
+          > div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            z-index: 1;
+            height: 500px;
+            width: 100%;
+            background-image: linear-gradient(to left, #FEFEFE 20%, transparent 50%);
+            padding: 1rem;
+
+            > h2 {
+              margin: 0;
+              font-size: 32px;
+              margin-bottom: 1rem;
+            }
+            > p {
+              font-size: 20px;
+              text-align: start;
+            }
+          }
+        }
+
+        > div:nth-child(2) {
+          height: 500px;
+          width: 100%;
+          background-image: url('./assets/cocina2.png');
+          background-position: right;
+          background-size: cover;
+
+          > div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            height: 500px;
+            width: 100%;
+            background-image: linear-gradient(to right, #FEFEFE 20%, transparent 50%);
+            z-index: 1;
+            padding: 1rem;
+
+            > h2 {
+              margin: 0;
+              font-size: 32px;
+              margin-bottom: 1rem;
+            }
+            > p {
+              font-size: 20px;
+              text-align: start;
+            }
+          }
+        }
+
+        > div:nth-child(3) {
+          height: 500px;
+          width: 100%;
+          background-image: url('./assets/cocina3.png');
+          background-position: left 25%;
+          background-size: cover;
+
+          > div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            height: 500px;
+            width: 100%;
+            background-image: linear-gradient(to left, #FEFEFE 20%, transparent 50%);
+            z-index: 1;
+            padding: 1rem;
+
+            > h2 {
+              margin: 0;
+              font-size: 32px;
+              margin-bottom: 1rem;
+            }
+            > p {
+              font-size: 20px;
+              text-align: end;
+            }
+          }
+        }
+      }
+    }
   }
 
   /* FOOTER */
@@ -720,19 +819,3 @@ p {
     }
   }
 }
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-/* @media screen and (min-width: 1440px) {
-  main {
-    max-width: 1440px;
-  }
-} */
