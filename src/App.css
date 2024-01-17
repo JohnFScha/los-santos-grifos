@@ -701,8 +701,8 @@ p {
           height: 500px;
           width: 100%;
           background-image: url('./assets/cocina1.png');
-          background-position: center;
-          background-size: cover;
+          background-position: top;
+          background-size: 100% 100%;
 
           > div.text {
             display: flex;
