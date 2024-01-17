@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../components/Buttons/Button";
 import ImageWithContainer from "../components/Products/ImageWithContainer";
 import WhatsappButton from '../components/WhatsappButton/WhatsappButton'
+import mujer from '../assets/mujer-trabajando.png'
 
 const Products = () => {
   return (
@@ -43,7 +44,7 @@ const Products = () => {
         </div>
 
         <ImageWithContainer
-          imageUrlTarjeta="./src/assets/mujer-trabajando.png"
+          imageUrlTarjeta={mujer}
           customClass="imagenMujer"
           title="Conocé nuestras novedades"
           text="Mantenete al tanto de las nuevas propuestas"

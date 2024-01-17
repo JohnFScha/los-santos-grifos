@@ -2,7 +2,6 @@ import React from "react";
 import "../css/about.css";
 import about from "../assets/about.jpg";
 //imports components
-import ImageWithContainer from "../components/Products/ImageWithContainer";
 import CardObjetivo from "../components/CardsObjetivos/CardObjetivo.jsx";
 import ImageAbout from "../components/Products/ImageAbout.jsx";
 import WhatsappButton from '../components/WhatsappButton/WhatsappButton'

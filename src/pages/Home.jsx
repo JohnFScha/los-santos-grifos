@@ -8,6 +8,7 @@ import Stock from "../assets/Stockpermanente.png";
 import Grifo1 from "../assets/grifo-1.jpg";
 import Grifo2 from "../assets/grifo-2.jpg";
 import Grifo3 from "../assets/grifo-3.png";
+import mujer from '../assets/mujer-trabajando.png'
 
 import italomix from "../assets/marcas/italomix.png";
 import Fango from "../assets/marcas/fango.png";
@@ -77,7 +78,7 @@ const Home = () => {
 
       <section role="info" id="card">
         <ImageWithContainer
-          imageUrlTarjeta="./src/assets/mujer-trabajando.png"
+          imageUrlTarjeta={mujer}
           customClass="imagenMujer"
           title="Conocé nuestras novedades"
           text="Mantenete al tanto de las nuevas propuestas"
