@@ -422,7 +422,7 @@ p {
 
   /* Home */
   main {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
     background-color: #FEFEFE;
     display: flex;
