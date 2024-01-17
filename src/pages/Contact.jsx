@@ -13,7 +13,7 @@ const Contact = () => {
       <section id="explicacion">
         <h3>Comunicate con nosotros</h3>
         <p>
-          ¡Te brindamos atención personalizada! Realizá tu{" "}
+          ¡Te brindamos atención personalizada! <br /> Realizá tu
           <strong>consulta</strong>, <strong>pedido</strong> o{" "}
           <strong>solicitud de presupuesto.</strong>
         </p>

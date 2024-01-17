@@ -1,5 +1,5 @@
 .contenedor-tarjeta-principal {
-  margin-top: 50px !important;
+  margin-top: 3rem !important;
 
 }
 
@@ -12,7 +12,7 @@
 .tarjeta-sobresalida {
   position: relative;
   display: flex;
-  top: -45px;
+  top: -70px;
   left: 0;
   right: 0;
   border-radius: 6px;
@@ -78,7 +78,7 @@
   }
 
   .tarjeta-sobresalida {
-    width: 90% !important;
+    width: 80% !important;
     height: 350px;
     justify-content: space-between;
     margin-left: auto;
@@ -99,13 +99,13 @@
 
   .tarjeta-contenido-texto h3 {
     margin-left: 30px;
-    font-size: 2rem;
+    font-size: 28px;
   }
 
   .tarjeta-contenido-texto p {
-    width: 230px;
+    width: 100%;
     margin-left: 30px;
-    font-size: 1rem;
+    font-size: 18px;
   }
 
   .container-tarjeta {
@@ -115,7 +115,7 @@
   .botonDescargar {
     margin-left: 2rem;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: bold;
   }
 

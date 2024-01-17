@@ -29,7 +29,7 @@ const About = () => {
           </p>
         </div>
 
-        <div>
+        <div className="top-ctn">
           <ImageAbout imageUrlTarjeta={about} customClass={"foto-about"} />
         </div>
       </div>

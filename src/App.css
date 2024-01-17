@@ -473,7 +473,8 @@ p {
         z-index: 10;
 
         .botonDescargar {
-          margin-left: 4rem;
+          margin-left: 4.5rem;
+          font-size: 18px;
           max-width: 260px;
         }
 
@@ -496,26 +497,36 @@ p {
     }
 
     >section#presentacion {
-      h2 {
-        width: 400px;
-      }
-
-      p {
+      > h2 {
         width: 1000px;
+        font-size: 28px;
       }
 
-      div {
-        width: 80%;
+      > p {
+        width: 1000px;
+        font-size: 18px
+      }
 
-        figure {
-          /* max-width: 100%; */
+      > div#info {
+        width: 70%;
 
-          img {
-            width: 5rem;
+        > figure {
+          
+          >div {
+            width: 7rem;
+            height: 7rem;
+            padding: 1.5rem;
+
+            > img {
+              width: 100%;
+              height: 100%;
+              margin: auto;
+            }
           }
 
-          figcaption {
-            font-size: 1rem;
+
+          > figcaption {
+            font-size: 16px;
           }
         }
       }
@@ -527,6 +538,7 @@ p {
       justify-content: center;
       justify-items: center;
       height: 1000px;
+      margin-bottom: 3rem;
 
       >img {
         height: 450px;
@@ -594,8 +606,8 @@ p {
 
     >section#marcas {
       >h2 {
-        font-size: 22px;
-        margin: 3rem 0;
+        font-size: 28px;
+        margin: 3rem 0 3rem 0;
       }
 
       >div {
@@ -610,6 +622,11 @@ p {
     >section#testimonios {
       article {
         div {
+          h2 {
+            font-size: 28px;
+            margin: 3rem 0;
+          }
+
           .css-1idztwo {
             height: 230px;
           }
@@ -643,8 +660,13 @@ p {
 
     >section#explicacion {
 
+      >h3 {
+        font-size: 28px;
+      }
+
       >p {
-        width: 30%;
+        width: 50%;
+        font-size: 18px;
         margin: auto;
       }
 
@@ -767,7 +789,7 @@ p {
       }
 
       >div {
-        margin: 3rem 0;
+        margin: 8rem 0 0 0;
       }
     }
   }
