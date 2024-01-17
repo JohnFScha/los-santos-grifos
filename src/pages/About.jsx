@@ -10,7 +10,7 @@ import WhatsappButton from '../components/WhatsappButton/WhatsappButton'
 
 const About = () => {
   return (
-    <main id="about" className="animate__animated animate__fadeInDown animate__fast">
+    <main id="about" className="animate__animated animate__fadeIn animate__fast">
       <h2>Quiénes somos</h2>
       <div className="flex-about">
         <div className="quienes-somos">

@@ -4,9 +4,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url('./assets/logo-bg.png') !important;
+  /* background-image: url('./assets/logo-bg.png') !important;
   background-size: 100px !important;
-  background-repeat: space !important;
+  background-repeat: space !important; */
 
   --naranja-1: #F1B441;
   --naranja-2: #F3A950;

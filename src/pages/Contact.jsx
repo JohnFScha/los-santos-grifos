@@ -7,7 +7,7 @@ import Griferia from "../assets/foto-pie-contacto.jpg";
 
 const Contact = () => {
   return (
-    <main className="animate__animated animate__fadeInDown  animate__fast">
+    <main className="animate__animated animate__fadeIn animate__fast">
       <h2>Contacto</h2>
       <ContactContainer />
       <section id="explicacion">

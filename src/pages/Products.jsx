@@ -5,7 +5,7 @@ import WhatsappButton from '../components/WhatsappButton/WhatsappButton'
 
 const Products = () => {
   return (
-    <main className="animate__animated animate__fadeInDown  animate__fast">
+    <main className="animate__animated   animate__fast">
       <h2>Nuestros productos</h2>
       <section id="accesorios">
         <article className="products">
