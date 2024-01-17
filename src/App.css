@@ -489,7 +489,7 @@ p {
     >section#productos::before {
       display: block;
       content: "";
-      background-image: linear-gradient(to left, transparent 57%, white 68%);
+      background-image: linear-gradient(to left, transparent 40%, white 60%);
       height: 500px;
       width: -webkit-fill-available;
       position: absolute;
@@ -712,7 +712,7 @@ p {
             z-index: 1;
             height: 500px;
             width: 100%;
-            background-image: linear-gradient(to left, #FEFEFE 20%, transparent 50%);
+            background-image: linear-gradient(to left, #FEFEFE 30%, transparent 50%);
             padding: 1rem;
 
             > h2 {
@@ -741,7 +741,7 @@ p {
             justify-content: center;
             height: 500px;
             width: 100%;
-            background-image: linear-gradient(to right, #FEFEFE 20%, transparent 50%);
+            background-image: linear-gradient(to right, #FEFEFE 30%, transparent 50%);
             z-index: 1;
             padding: 1rem;
 
@@ -771,7 +771,7 @@ p {
             justify-content: center;
             height: 500px;
             width: 100%;
-            background-image: linear-gradient(to left, #FEFEFE 20%, transparent 50%);
+            background-image: linear-gradient(to left, #FEFEFE 30%, transparent 50%);
             z-index: 1;
             padding: 1rem;
 
