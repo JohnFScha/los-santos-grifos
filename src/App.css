@@ -384,7 +384,7 @@ p {
 /*======================Media queries====================*/
 
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
   header {
     margin: 0;
@@ -439,12 +439,12 @@ p {
     >section#productos {
       display: flex !important;
       justify-content: center !important;
-      width: 100%;
+      width: -webkit-fill-available;
       height: 500px;
       background: url('./assets/home1desktop.png');
-      background-position: right;
+      background-position: 100% 100%;
       background-repeat: no-repeat;
-      background-size: fill;
+      background-size: 85%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -489,7 +489,7 @@ p {
     >section#productos::before {
       display: block;
       content: "";
-      background-image: linear-gradient(to left, transparent 40%, white 60%);
+      background-image: linear-gradient(to left, transparent 50%, white 70%);
       height: 500px;
       width: -webkit-fill-available;
       position: absolute;
@@ -701,8 +701,10 @@ p {
           height: 500px;
           width: 100%;
           background-image: url('./assets/cocina1.png');
-          background-position: top;
-          background-size: 100% 100%;
+          background-position: left 65%;
+          background-size: 100%;
+          background-repeat: no-repeat;
+
 
           > div.text {
             display: flex;
@@ -731,8 +733,10 @@ p {
           height: 500px;
           width: 100%;
           background-image: url('./assets/cocina2.png');
-          background-position: right;
+          background-position: right 20%;
           background-size: cover;
+          background-repeat: no-repeat;
+
 
           > div.text {
             display: flex;
@@ -761,8 +765,9 @@ p {
           height: 500px;
           width: 100%;
           background-image: url('./assets/cocina3.png');
-          background-position: left 25%;
+          background-position: top left;
           background-size: cover;
+          background-repeat: no-repeat;
 
           > div.text {
             display: flex;
@@ -771,7 +776,7 @@ p {
             justify-content: center;
             height: 500px;
             width: 100%;
-            background-image: linear-gradient(to left, #FEFEFE 30%, transparent 50%);
+            background-image: linear-gradient(to left, #FEFEFE 30%, transparent 40%);
             z-index: 1;
             padding: 1rem;
 
@@ -843,6 +848,171 @@ p {
     >div:last-child {
       width: auto;
       align-content: start;
+    }
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+
+  main {
+    >section#productos {
+      display: flex !important;
+      justify-content: center !important;
+      width: -webkit-fill-available;
+      height: 500px;
+      background: url('./assets/home1desktop.png');
+      background-position: 100% 50%;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+  
+  
+      >div#heading {
+        background-image: none;
+        z-index: 10;
+  
+        >h2#h2-home {
+          max-width: 550px;
+          font-size: 40px;
+          color: #3E3E40;
+          font-weight: 700;
+          font-family: Montserrat, sans-serif;
+          line-height: 2.8rem;
+        }
+      }
+  
+      >div#actions {
+        background-color: transparent;
+        background-image: none;
+        align-items: flex-start;
+        max-width: 400px;
+        z-index: 10;
+  
+        .botonDescargar {
+          margin-left: 4.5rem;
+          font-size: 18px;
+          max-width: 260px;
+        }
+  
+        >h3#h3-home {
+          font-family: 1rem;
+          padding: 0 6rem;
+          width: 500px;
+        }
+      }
+    }
+
+    >section#accesorios {
+
+      >article.products {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2rem;
+        width: 100%;
+
+        > div:nth-child(1) {
+          height: 500px;
+          width: 100%;
+          background-image: url('./assets/cocina1.jpg');
+          background-position: 50% left;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+
+          > div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            z-index: 1;
+            height: 500px;
+            width: 100%;
+            background-image: linear-gradient(to left, #FEFEFE 30%, transparent 50%);
+            padding: 1rem;
+
+            > h2 {
+              margin: 0;
+              font-size: 32px;
+              margin-bottom: 1rem;
+            }
+            > p {
+              font-size: 20px;
+              text-align: start;
+            }
+          }
+        }
+
+        > div:nth-child(2) {
+          height: 500px;
+          width: 100%;
+          background-image: url('./assets/cocina2.png');
+          background-position: right 20%;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+
+          > div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            height: 500px;
+            width: 100%;
+            background-image: linear-gradient(to right, #FEFEFE 30%, transparent 50%);
+            z-index: 1;
+            padding: 1rem;
+
+            > h2 {
+              margin: 0;
+              font-size: 32px;
+              margin-bottom: 1rem;
+            }
+            > p {
+              font-size: 20px;
+              text-align: start;
+            }
+          }
+        }
+
+        > div:nth-child(3) {
+          height: 500px;
+          width: 100%;
+          background-image: url('./assets/cocina3.jpg');
+          background-position: -400px 50%;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          > div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            height: 500px;
+            width: 100%;
+            background-image: linear-gradient(to left, #FEFEFE 30%, transparent 40%);
+            z-index: 1;
+            padding: 1rem;
+
+            > h2 {
+              margin: 0;
+              font-size: 32px;
+              margin-bottom: 1rem;
+            }
+            > p {
+              font-size: 20px;
+              text-align: end;
+            }
+          }
+        }
+      }
+
+      >div {
+        margin: 8rem 0 0 0;
+      }
     }
   }
 }
