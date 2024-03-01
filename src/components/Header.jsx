@@ -19,7 +19,7 @@ const Header = () => {
       </Link>
       <nav id="mobile-menu">
         <Menu>
-          <MenuButton>
+          <MenuButton fontSize={"30px"}>
             <AiOutlineMenu />
           </MenuButton>
           <MenuList zIndex={10}>

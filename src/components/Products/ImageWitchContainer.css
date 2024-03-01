@@ -1,6 +1,5 @@
 .contenedor-tarjeta-principal {
-  margin-top: 3rem !important;
-
+  margin-top: 4rem !important;
 }
 
 .container-tarjeta {
@@ -12,7 +11,7 @@
 .tarjeta-sobresalida {
   position: relative;
   display: flex;
-  top: -70px;
+  top: -50px;
   left: 0;
   right: 0;
   border-radius: 6px;
@@ -34,7 +33,9 @@
 .tarjeta-contenido-texto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 1.54rem 0;
+  gap: 1rem;
 }
 
 .tarjeta-contenido-texto h3 {
@@ -118,5 +119,8 @@
     font-size: 18px;
     font-weight: bold;
   }
-
 }
+
+ @media only screen and (min-width: 1900px) {
+
+ }
