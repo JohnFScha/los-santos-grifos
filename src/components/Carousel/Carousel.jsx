@@ -79,7 +79,7 @@ const Carousel = () => {
               />
 
               {/* Contenido de la tarjeta con el testimonio */}
-              <Box p={2} mt={4} width="100%" height="100%">
+              <Box p={2} mt={4} width="100%" height="200px">
                 {" "}
                 <Text
                   fontSize="18px"
