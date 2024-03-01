@@ -12,37 +12,21 @@ const Carousel = () => {
       lugar: "Ceramicasa",
       testimonio:
         "“Nos sentimos muy agradecidos por la buena atención, precios de sus productos y el seguimiento diario de nuestras necesidades”.",
+      imagen: "/img/Ellipse2.png",
     },
     {
-      autor: "Santiago Ulloa",
-      lugar: "Ceramicasa",
-      lugar: "Ceramicasa",
+      autor: "Eliana García ",
+      lugar: "Sobremonte",
       testimonio:
-        "“Nos sentimos muy agradecidos por la buena atención, precios de sus productos y el seguimiento diario de nuestras necesidades”.",
+        "“Nos parece una grifería con una buena relación precio-calidad. ¡¡Tienen muchos modelos para elegir!!”.",
+      imagen: "/img/2docomentario.png",
     },
     {
-      autor: "Santiago Ulloa",
-      lugar: "Ceramicasa",
+      autor: "Carolina Madrigal",
+      lugar: "DC griferías",
       testimonio:
-        "“Nos sentimos muy agradecidos por la buena atención, precios de sus productos y el seguimiento diario de nuestras necesidades”.",
-    },
-    {
-      autor: "Santiago Ulloa",
-      lugar: "Ceramicasa",
-      testimonio:
-        "“Nos sentimos muy agradecidos por la buena atención, precios de sus productos y el seguimiento diario de nuestras necesidades”.",
-    },
-    {
-      autor: "Santiago Ulloa",
-      lugar: "Ceramicasa",
-      testimonio:
-        "“Nos sentimos muy agradecidos por la buena atención, precios de sus productos y el seguimiento diario de nuestras necesidades”.",
-    },
-    {
-      autor: "Santiago Ulloa",
-      lugar: "Ceramicasa",
-      testimonio:
-        "“Nos sentimos muy agradecidos por la buena atención, precios de sus productos y el seguimiento diario de nuestras necesidades”.",
+        "“Los mejores productos, inmejorable precio y calidad, asesoramiento personalizado y gran variedad. Recomiendo 100%”.",
+      imagen: "/img/3ercomentario.png",
     },
   ];
 
@@ -85,7 +69,8 @@ const Carousel = () => {
               overflow="visible"
             >
               <Image
-                src="/img/Ellipse2.png"
+                // src="/img/Ellipse2.png"
+                src={testimonio.imagen}
                 alt="Imagen testimonio"
                 borderRadius="50%"
                 position="absolute"
