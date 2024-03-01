@@ -75,7 +75,7 @@ const Carousel = () => {
                 borderRadius="50%"
                 position="absolute"
                 top="-16px"
-                left="25px"
+                left="0"
               />
 
               {/* Contenido de la tarjeta con el testimonio */}
