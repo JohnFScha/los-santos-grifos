@@ -87,6 +87,7 @@ const Carousel = () => {
                   fontFamily={"Monserrat"}
                   fontStyle={"normal"}
                   mb={2}
+                  pl={6}
                   textAlign="center"
                 >
                   {testimonio.autor}
@@ -96,6 +97,7 @@ const Carousel = () => {
                   fontSize="xl"
                   fontWeight="700"
                   mb={2}
+                  pl={6}
                   textAlign="center"
                   lineHeight={"16px"}
                 >
