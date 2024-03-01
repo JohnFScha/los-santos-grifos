@@ -819,7 +819,7 @@ p {
         width: 100vw;
         height: 500px;
         object-fit: cover;
-        object-position: bottom;
+        object-position: center;
       }
     }
 
@@ -1153,6 +1153,21 @@ p {
 
       >div {
         margin: 8rem 0 0 0;
+      }
+    }
+
+    >section#explicacion {
+
+      >section#image-container {
+        width: 100%;
+        height: 100%;
+
+        >img {
+          width: 100vw;
+          height: 500px;
+          object-fit: cover;
+          object-position: center 25%;
+        }
       }
     }
   }
