@@ -97,11 +97,13 @@ const Carousel = () => {
                   fontWeight="700"
                   mb={2}
                   textAlign="center"
-                  lineHeight={"26px"}
+                  lineHeight={"16px"}
                 >
                   {testimonio.lugar}
                 </Text>
-                <Text mt={2}>{testimonio.testimonio}</Text>
+                <Text mt={4} lineHeight={"2rem"}>
+                  {testimonio.testimonio}
+                </Text>
               </Box>
             </Box>
           </Box>
