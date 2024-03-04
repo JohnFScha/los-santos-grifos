@@ -860,7 +860,7 @@ p {
 
             >p {
               font-size: 20px;
-              text-align: start;
+              text-align: end;
             }
           }
         }
@@ -1080,7 +1080,7 @@ p {
 
             >p {
               font-size: 20px;
-              text-align: start;
+              text-align: end;
             }
           }
         }
