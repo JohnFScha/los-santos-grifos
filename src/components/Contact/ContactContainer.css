@@ -27,13 +27,12 @@ div.contenedor-principal {
 div.tarjeta-contenido-texto-contacto {
   display: grid;
   grid-template-columns: 1fr;
-  /* gap: 0.5rem; */
   padding: 0.5rem 0;
+  align-items: center;
 
   >div.columna {
     display: flex;
     flex-direction: column;
-    /* gap: 0.5rem; */
 
     >.contenido-2 {
       display: flex;
@@ -49,9 +48,9 @@ div.tarjeta-contenido-texto-contacto {
     }
   }
 
-    #subtitle {
-      text-decoration: none;
-    }
+  #subtitle {
+    text-decoration: none;
+  }
 
 }
 
@@ -107,6 +106,17 @@ hr#divider {
           font-weight: 500;
         }
       }
+    }
+  }
+}
+
+
+@media(min-width: 1366px) {
+  .contenedor-tarjeta {
+    height: 20vh;
+
+    >.tarjeta-sobresalida-2 {
+      height: 20vh !important;
     }
   }
 }

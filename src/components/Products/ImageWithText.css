@@ -9,7 +9,7 @@
 
 .contenedor2 {
     background-image: url('../../assets/cocina1.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center center;
 }
 
@@ -168,3 +168,8 @@
         justify-content: center;
     }
 }
+
+@media(min-width: 1366px) {
+    .tarjeta-sobresalida-2 {
+        height: 20vh !important;
+    }
