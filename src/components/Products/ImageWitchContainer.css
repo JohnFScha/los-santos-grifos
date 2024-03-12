@@ -4,7 +4,7 @@
 
 .container-tarjeta {
   position: relative;
-  height: 60%;
+  height: 20vh;
   background: var(--Naranja-2, #F3A950);
 }
 
@@ -16,7 +16,7 @@
   right: 0;
   border-radius: 6px;
   margin: 10px;
-  height: 30vh;
+  height: 23vh;
   background-color: var(--Gris-claro, #F2F2F2);
   flex-shrink: 0;
 
@@ -59,9 +59,13 @@
   line-height: 24px;
 }
 
-/* .contenedor-image {
-    width: 95px !important;
-} */
+.contenedor-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: stretch;
+  width: 33%;
+}
 
 .products {
   margin-bottom: 50px;

@@ -168,8 +168,3 @@
         justify-content: center;
     }
 }
-
-@media(min-width: 1366px) {
-    .tarjeta-sobresalida-2 {
-        height: 20vh !important;
-    }

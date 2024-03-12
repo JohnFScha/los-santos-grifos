@@ -43,8 +43,7 @@ const Home = () => {
         <h2>Calidad y excelencia para tus clientes</h2>
         <p>
           Contamos con una amplia variedad de griferías y accesorios para baños
-          y cocinas adaptadas a todas las necesidades. Realizamos envíos a todo
-          el país.
+          y cocinas adaptadas a todas las necesidades.<br /><strong> Realizamos envíos a todo el país.</strong> 
         </p>
         ´
         <div role="group" id="info">
@@ -58,7 +57,7 @@ const Home = () => {
             <div>
               <img src={Atencion} alt="entrega inmediata" />
             </div>
-            <figcaption>Calidad Garantizada</figcaption>
+            <figcaption>Calidad garantizada</figcaption>
           </figure>
           <figure>
             <div>

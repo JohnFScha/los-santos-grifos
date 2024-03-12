@@ -4,7 +4,7 @@ div.contenedor-principal {
 
 .contenedor-tarjeta {
   position: relative;
-  height: 32vh;
+  height: 28vh;
   background: var(--Naranja-2, #F3A950);
 }
 
@@ -15,7 +15,7 @@ div.contenedor-principal {
   right: 0;
   height: 30vh !important;
   border-radius: 6px;
-  width: 70vw;
+  width: 93vw;
   margin: auto;
   background-color: var(--Gris-claro, #F2F2F2);
   flex-shrink: 0;
@@ -38,7 +38,7 @@ div.tarjeta-contenido-texto-contacto {
       display: flex;
       align-items: center;
       gap: 1rem;
-      font-size: small;
+      font-size: 18px;
       text-decoration: underline;
       padding-top: 0.5rem;
 

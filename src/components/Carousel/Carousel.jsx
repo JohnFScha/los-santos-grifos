@@ -84,7 +84,7 @@ const Carousel = () => {
                 <Text
                   fontSize="18px"
                   fontWeight={"500"}
-                  fontFamily={"Monserrat"}
+                  fontFamily={"Montserrat"}
                   fontStyle={"normal"}
                   mb={2}
                   pl={6}
@@ -93,9 +93,10 @@ const Carousel = () => {
                   {testimonio.autor}
                 </Text>
                 <Text
-                  fontFamily={"Monserrat"}
-                  fontSize="xl"
+                  fontFamily={"Montserrat"}
+                  fontSize="12px"
                   fontWeight="700"
+                  fontStyle={"normal"}
                   mb={2}
                   pl={6}
                   textAlign="center"
