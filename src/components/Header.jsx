@@ -24,7 +24,7 @@ const Header = () => {
           </MenuButton>
           <MenuList zIndex={10}>
             <MenuItem>
-              <Link to={"/"}>Pagina Principal</Link>
+              <Link to={"/"}>Inicio</Link>
             </MenuItem>
             <MenuItem>
               <Link to={"/nosotros"}>Quiénes Somos</Link>
