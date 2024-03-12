@@ -14,3 +14,7 @@ body {
   --gris-oscuro: #3E3E40;
   --blanco: #FEFEFE
 }
+
+.css-18esm8n:focus, .css-18esm8n[data-focus]{
+  --menu-bg: transparent !important;
+}

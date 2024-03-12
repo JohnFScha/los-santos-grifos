@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo from "../assets/logo-header.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
@@ -7,6 +7,10 @@ import { Link, useLocation } from "react-router-dom";
 const Header = () => {
   const location = useLocation();
 
+  //volver al inicio de cada scroll
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   const isLinkActive = (pathname) => {
     // Compare the current pathname with the link's pathname
     return location.pathname === pathname;
@@ -14,7 +18,7 @@ const Header = () => {
 
   return (
     <header>
-      <Link to={'/'}>
+      <Link to={"/"}>
         <img src={Logo} alt="Los santos grifos" />
       </Link>
       <nav id="mobile-menu">
