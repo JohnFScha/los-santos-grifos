@@ -27,7 +27,7 @@ const Header = () => {
               <Link to={"/"}>Pagina Principal</Link>
             </MenuItem>
             <MenuItem>
-              <Link to={"/nosotros"}>Quienes Somos</Link>
+              <Link to={"/nosotros"}>Quiénes Somos</Link>
             </MenuItem>
             <MenuItem>
               <Link to={"/productos"}>Productos</Link>
@@ -55,7 +55,7 @@ const Header = () => {
           to={"/nosotros"}
           className={isLinkActive("/nosotros") ? "active" : ""}
         >
-          Quienes Somos
+          Quiénes Somos
         </Link>
         <Link to={"/faq"} className={isLinkActive("/faq") ? "active" : ""}>
           Preguntas frecuentes

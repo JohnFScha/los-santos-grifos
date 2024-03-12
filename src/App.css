@@ -350,7 +350,7 @@ main {
           z-index: 1;
           height: 300px;
           width: 100%;
-          background-image: linear-gradient(to left, #FEFEFE 40%, transparent 60%);
+          background-image: linear-gradient(to left, #FEFEFE 50%, transparent 60%);
           padding: 1rem;
 
           >h2 {
@@ -385,7 +385,7 @@ main {
           justify-content: center;
           height: 300px;
           width: 100%;
-          background-image: linear-gradient(to right, #FEFEFE 40%, transparent 65%);
+          background-image: linear-gradient(to right, #FEFEFE 50%, transparent 65%);
           z-index: 1;
           padding: 1rem;
 
@@ -420,15 +420,15 @@ main {
           justify-content: center;
           height: 300px;
           width: 100%;
-          background-image: linear-gradient(to left, #FEFEFE 40%, transparent 60%);
+          background-image: linear-gradient(to left, #FEFEFE 50%, transparent 60%);
           z-index: 1;
-          padding: 1rem;
+          padding: 0.5rem;
 
           >h2 {
             margin: 0;
             font-size: 20px;
             margin-bottom: 1rem;
-            width: 70%;
+            width: 60%;
             text-align: end;
           }
 
