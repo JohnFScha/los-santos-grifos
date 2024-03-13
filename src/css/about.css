@@ -23,7 +23,7 @@
     color: var(--Gris-oscuro, #3E3E40);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;

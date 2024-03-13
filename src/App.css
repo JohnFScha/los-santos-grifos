@@ -304,7 +304,7 @@ main {
 
     >img {
       width: 100vw;
-      height: 131px;
+      height: 300px;
       object-fit: cover;
       object-position: center;
     }
@@ -831,19 +831,20 @@ p {
         width: 20% !important;
         margin: auto;
       }
-    }
 
-    >section#image-container {
-      width: 100%;
-      height: 100%;
-
-      >img {
-        width: 100vw;
-        height: 500px;
-        object-fit: cover;
-        object-position: center;
+      >section#image-container {
+        width: 100%;
+        height: 100%;
+  
+        >img {
+          width: 100vw;
+          height: 500px;
+          object-fit: cover;
+          object-position: 100% 20%;
+        }
       }
     }
+
 
     >section#accesorios {
 
