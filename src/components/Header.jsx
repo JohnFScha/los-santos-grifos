@@ -50,18 +50,18 @@ const Header = () => {
             </MenuItem>
             <MenuItem>
               <Link
-                to={"/contacto"}
-                className={isLinkActive("/contacto") ? "active" : ""}
+                to={"/preguntas-frecuentes"}
+                className={isLinkActive("/preguntas-frecuentes") ? "active" : ""}
               >
-                Contacto
+                Preguntas frecuentes
               </Link>
             </MenuItem>
             <MenuItem>
               <Link
-                to={"/faq"}
-                className={isLinkActive("/faq") ? "active" : ""}
+                to={"/contacto"}
+                className={isLinkActive("/contacto") ? "active" : ""}
               >
-                Preguntas frecuentes
+                Contacto
               </Link>
             </MenuItem>
           </MenuList>
@@ -83,7 +83,7 @@ const Header = () => {
         >
           Quiénes Somos
         </Link>
-        <Link to={"/faq"} className={isLinkActive("/faq") ? "active" : ""}>
+        <Link to={"/preguntas-frecuentes"} className={isLinkActive("/preguntas-frecuentes") ? "active" : ""}>
           Preguntas frecuentes
         </Link>
         <Link

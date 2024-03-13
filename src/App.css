@@ -304,7 +304,7 @@ main {
 
     >img {
       width: 100vw;
-      height: 300px;
+      height: 131px;
       object-fit: cover;
       object-position: center;
     }
@@ -344,11 +344,11 @@ main {
       width: 100%;
 
       >div:nth-child(1) {
-        height: 300px;
+        height: 131px;
         width: 100%;
         background-image: url('./assets/cocina1.jpg');
         background-position: 10% 60%;
-        background-size: 1000px;
+        background-size: 151%;
         background-repeat: no-repeat;
 
 
@@ -358,21 +358,21 @@ main {
           align-items: end;
           justify-content: center;
           z-index: 1;
-          height: 300px;
+          height: 131px;
           width: 100%;
           background-image: linear-gradient(to left, #FEFEFE 50%, transparent 60%);
           padding: 1rem;
 
           >h2 {
             margin: 0;
-            font-size: 20px;
+            font-size: 16px;
             margin-bottom: 1rem;
             width: 50%;
             text-align: end;
           }
 
           >p {
-            font-size: 18px;
+            font-size: 14px;
             width: 50%;
             text-align: end;
           }
@@ -380,11 +380,11 @@ main {
       }
 
       >div:nth-child(2) {
-        height: 300px;
+        height: 131px;
         width: 100%;
         background-image: url('./assets/cocina2.png');
-        background-position: 60%;
-        background-size: cover;
+        background-position: 20%;
+        background-size: 111%;
         background-repeat: no-repeat;
 
 
@@ -393,7 +393,7 @@ main {
           flex-direction: column;
           align-items: start;
           justify-content: center;
-          height: 300px;
+          height: 132px;
           width: 100%;
           background-image: linear-gradient(to right, #FEFEFE 50%, transparent 65%);
           z-index: 1;
@@ -401,14 +401,14 @@ main {
 
           >h2 {
             margin: 0;
-            font-size: 20px;
+            font-size: 16px;
             margin-bottom: 1rem;
             width: 50%;
             text-align: start;
           }
 
           >p {
-            font-size: 18px;
+            font-size: 14px;
             text-align: start;
             width: 50%;
           }
@@ -416,11 +416,11 @@ main {
       }
 
       >div:nth-child(3) {
-        height: 300px;
+        height: 131px;
         width: 100%;
         background-image: url('./assets/cocina3.jpg');
         background-position: right;
-        background-size: cover;
+        background-size: 150%;
         background-repeat: no-repeat;
 
         >div.text {
@@ -428,7 +428,7 @@ main {
           flex-direction: column;
           align-items: end;
           justify-content: center;
-          height: 300px;
+          height: 132px;
           width: 100%;
           background-image: linear-gradient(to left, #FEFEFE 50%, transparent 60%);
           z-index: 1;
@@ -436,14 +436,14 @@ main {
 
           >h2 {
             margin: 0;
-            font-size: 20px;
+            font-size: 16px;
             margin-bottom: 1rem;
             width: 60%;
             text-align: end;
           }
 
           >p {
-            font-size: 18px;
+            font-size: 14px;
             text-align: end;
             width: 50%;
           }
