@@ -21,6 +21,17 @@ header {
   >#desktop-menu {
     display: none;
   }
+
+   
+
+    >nav#mobile-menu .active{
+     
+
+    
+        font-weight: bold;
+        border-bottom: 2.5px solid var(--naranja-2)
+      
+    }
 }
 
 /*======================Sección principal de la pagina====================*/
@@ -539,7 +550,13 @@ p {
 
     >#mobile-menu {
       display: none;
+      
     }
+    /* #mobile-menu .active {
+     
+        background-color: red !important;
+      
+    } */
 
     >nav#desktop-menu {
       display: flex;

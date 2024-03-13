@@ -28,19 +28,41 @@ const Header = () => {
           </MenuButton>
           <MenuList zIndex={10}>
             <MenuItem>
-              <Link to={"/"}>Inicio</Link>
+              <Link to={"/"} className={isLinkActive("/") ? "active" : ""}>
+                Inicio
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to={"/nosotros"}>Quiénes Somos</Link>
+              <Link
+                to={"/nosotros"}
+                className={isLinkActive("/nosotros") ? "active" : ""}
+              >
+                Quiénes Somos
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to={"/productos"}>Productos</Link>
+              <Link
+                to={"/productos"}
+                className={isLinkActive("/productos") ? "active" : ""}
+              >
+                Productos
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to={"/contacto"}>Contacto</Link>
+              <Link
+                to={"/contacto"}
+                className={isLinkActive("/contacto") ? "active" : ""}
+              >
+                Contacto
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to={"/faq"}>Preguntas frecuentes</Link>
+              <Link
+                to={"/faq"}
+                className={isLinkActive("/faq") ? "active" : ""}
+              >
+                Preguntas frecuentes
+              </Link>
             </MenuItem>
           </MenuList>
         </Menu>
