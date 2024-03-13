@@ -660,7 +660,8 @@ p {
       }
 
       >p {
-        width: 1000px;
+        margin-top: 0.5rem;
+        width: 100%;
         font-size: 18px
       }
 
