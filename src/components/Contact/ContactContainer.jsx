@@ -17,7 +17,9 @@ const ContactContainer = () => {
               <div className="columna">
                 <Link
                   className="contenido-2"
-                  to={"https://api.whatsapp.com/send/?phone=1138889199&text&type=phone_number&app_absent=0"}
+                  to={
+                    "https://api.whatsapp.com/send/?phone=1138889199&text&type=phone_number&app_absent=0"
+                  }
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -25,16 +27,20 @@ const ContactContainer = () => {
                 </Link>
                 <Link
                   className="contenido-2"
-                  to={
-                    "mailto:losantosgrifos@hotmail.com "
-                  }
+                  to={"mailto:losantosgrifos@hotmail.com "}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <IoMdMail /> losantosgrifos2004@hotmail.com
                 </Link>
                 <div className="contenido-2">
-                  <IoLocationSharp /> San Rafael, Mendoza
+                  <Link
+                    to={'https://maps.app.goo.gl/MQcuMAvqimSUoELL9'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <IoLocationSharp /> San Rafael, Mendoza
+                  </Link>
                 </div>
               </div>
               <hr id="divider" />
@@ -55,7 +61,9 @@ const ContactContainer = () => {
                 <div className="contenido-2">
                   <FaFacebookSquare />
                   <Link
-                    to={"https://web.facebook.com/profile.php?id=61550800472914&_rdc=1&_rdr"}
+                    to={
+                      "https://web.facebook.com/profile.php?id=61550800472914&_rdc=1&_rdr"
+                    }
                     rel="noopener noreferrer"
                     target="_blank"
                   >
