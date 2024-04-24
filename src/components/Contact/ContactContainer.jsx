@@ -55,7 +55,7 @@ const ContactContainer = () => {
                 <div className="contenido-2">
                   <FaFacebookSquare />
                   <Link
-                    to={"https://facebok.com/losantosgrifos"}
+                    to={"https://web.facebook.com/profile.php?id=61550800472914&_rdc=1&_rdr"}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
