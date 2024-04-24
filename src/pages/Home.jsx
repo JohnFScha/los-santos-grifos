@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         <div role="menu" id="actions">
           <h3 id="h3-home">Conocé nuestros productos</h3>
-          <Button id="button-home">Descargar catálogo</Button>
+          <Button isContact={false} id="button-home">Descargar catálogo</Button>
         </div>
       </section>
 

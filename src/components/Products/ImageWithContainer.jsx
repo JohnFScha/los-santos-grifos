@@ -25,7 +25,7 @@ const ImageWithContainer = ({
               <div className="tarjeta-contenido-texto">
                 <h3>{title}</h3>
                 <p>{text}</p>
-                {showButton && <Boton>Descargar Novedades</Boton>}
+                {showButton && <Boton isContact={false}>Descargar Novedades</Boton>}
               </div>
             </div>
           </div>

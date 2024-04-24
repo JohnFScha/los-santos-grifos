@@ -1,9 +1,8 @@
 import React from "react";
 import ContactContainer from "../components/Contact/ContactContainer";
 import Button from "../components/Buttons/Button";
-import { Link } from "react-router-dom";
-import { BsWhatsapp } from "react-icons/bs";
 import Griferia from "../assets/foto-pie-contacto.jpg";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -18,10 +17,8 @@ const Contact = () => {
           <strong>solicitud de presupuesto.</strong>
         </p>
         <div id="contact-data">
-          <Button>
-            <Link to={"tel:+541123864313"}>
-              <BsWhatsapp />
-            </Link>
+          <Button isContact={true}>
+            <BsWhatsapp />
             Enviar Whatsapp
           </Button>
         </div>

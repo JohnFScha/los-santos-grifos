@@ -40,7 +40,7 @@ const Products = () => {
         </article>
 
         <div style={{ marginTop: "20px", marginBottom: "60px" }}>
-          <Button>Descargar Catalogo</Button>
+          <Button isContact={false}>Descargar Catalogo</Button>
         </div>
 
         <ImageWithContainer

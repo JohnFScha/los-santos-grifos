@@ -1,14 +1,26 @@
-.boton{
+.boton {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
-.botonDescargar{
+
+.botonDescargar {
     width: 52vw;
     border-radius: 6px;
     padding: 0.4rem;
+    background: var(--Naranja-2, #F3A950);
+    text-align: center;
+}
+
+.contactBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    border-radius: 6px;
+    padding: 1rem;
     background: var(--Naranja-2, #F3A950);
     text-align: center;
 }

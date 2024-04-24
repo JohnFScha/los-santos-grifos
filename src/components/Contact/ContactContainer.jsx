@@ -17,15 +17,19 @@ const ContactContainer = () => {
               <div className="columna">
                 <Link
                   className="contenido-2"
-                  to={"mailto:losantosgrifos@hotmail.com"}
+                  to={"https://api.whatsapp.com/send/?phone=1138889199&text&type=phone_number&app_absent=0"}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <BsFillTelephoneFill /> 11 5573-6664
                 </Link>
                 <Link
                   className="contenido-2"
                   to={
-                    "https://api.whatsapp.com/send/?phone=1138889199&text&type=phone_number&app_absent=0"
+                    "mailto:losantosgrifos@hotmail.com "
                   }
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <IoMdMail /> losantosgrifos2004@hotmail.com
                 </Link>
