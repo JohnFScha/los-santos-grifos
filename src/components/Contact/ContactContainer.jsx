@@ -33,15 +33,14 @@ const ContactContainer = () => {
                 >
                   <IoMdMail /> losantosgrifos2004@hotmail.com
                 </Link>
-                <div className="contenido-2">
-                  <Link
-                    to={'https://maps.app.goo.gl/MQcuMAvqimSUoELL9'}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <IoLocationSharp /> San Rafael, Mendoza
-                  </Link>
-                </div>
+                <Link
+                  className="contenido-2"
+                  to={"https://maps.app.goo.gl/MQcuMAvqimSUoELL9"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <IoLocationSharp /> San Rafael, Mendoza
+                </Link>
               </div>
               <hr id="divider" />
               <div className="columna">
