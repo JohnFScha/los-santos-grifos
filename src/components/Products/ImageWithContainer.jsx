@@ -1,7 +1,7 @@
 import React from "react";
 
 // Importo componente boton
-import Boton from "../Buttons/Button.jsx";
+import Button from "../Buttons/ButtonNovedades.jsx"
 
 //Import css component
 import "./ImageWitchContainer.css";
@@ -25,7 +25,7 @@ const ImageWithContainer = ({
               <div className="tarjeta-contenido-texto">
                 <h3>{title}</h3>
                 <p>{text}</p>
-                {showButton && <Boton isContact={false}>Descargar Novedades</Boton>}
+                {showButton && <Button isContact={false}>Descargar Novedades</Button>}
               </div>
             </div>
           </div>
